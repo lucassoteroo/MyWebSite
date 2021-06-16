@@ -1,0 +1,7 @@
+.cabecalho_principal-link {
+    margin: 6% 0;
+}
+
+.cabecalho_principal-link:hover {
+    text-decoration: underline;
+}

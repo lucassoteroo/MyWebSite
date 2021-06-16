@@ -1,0 +1,5 @@
+.rodape {
+    display: flex;
+    background: #BFBFBF;
+    justify-content: flex-end;
+}

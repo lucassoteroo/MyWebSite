@@ -1,0 +1,4 @@
+.dados_pessoais {
+    display: flex;
+    flex-direction: column;
+}

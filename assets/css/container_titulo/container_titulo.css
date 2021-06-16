@@ -1,0 +1,5 @@
+.container_titulo {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,4 @@
+.conhecimentos {
+    display: flex;
+    flex-direction: column;
+}
