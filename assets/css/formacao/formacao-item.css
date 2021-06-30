@@ -5,3 +5,9 @@
     padding: 3% 5%;
     margin-top: 3%;
 }
+
+@media screen and (min-width: 768px) {
+    .formacao-item {
+        padding: 1% 3%;
+    }
+}
