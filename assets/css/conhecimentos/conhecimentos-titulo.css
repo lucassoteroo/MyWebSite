@@ -1,8 +1,9 @@
 .conhecimentos-titulo {
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2rem;
-    border-bottom: 2px solid #FFFFFF;
+    font-weight: 700;
+    border-bottom: 2px solid #000000;
     margin-top: 5%;
     padding-bottom: 1%;
 }

@@ -1,10 +1,10 @@
 .container_titulo-principal {
     text-align: center;
-    color: #FFFFFF;
-    font-weight: 400;
+    color: #404046;
+    font-weight: 700;
     font-size: 3.25rem;
     font-family: 'Noto Sans', sans-serif;
     margin-top: 1%;
     padding-bottom: 1%;
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 3px solid #404046;
 }
