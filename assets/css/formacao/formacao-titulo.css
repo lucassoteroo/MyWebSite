@@ -7,3 +7,10 @@
     margin-top: 5%;
     padding-bottom: 1%;
 }
+
+@media screen and (min-width: 768px) {
+    .formacao-titulo {
+        font-size: 3.5rem;
+        border-bottom: 3.5px solid #000000;
+    }
+}

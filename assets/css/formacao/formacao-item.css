@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 768px) {
     .formacao-item {
+        font-size: 2.2rem;
         padding: 1% 3%;
     }
 }
