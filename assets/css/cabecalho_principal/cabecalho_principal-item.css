@@ -5,3 +5,9 @@
     font-weight: 700;
     color: #404046;
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho_principal-item {
+        font-size: 2.5rem;
+    }
+}

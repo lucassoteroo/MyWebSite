@@ -6,3 +6,9 @@
     text-align: justify;
     line-height: normal;
 }
+
+@media screen and (min-width: 768px) {
+    .resumo-conteudo {
+        font-size: 2.2rem;
+    }
+}

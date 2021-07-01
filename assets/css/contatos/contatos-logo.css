@@ -3,3 +3,10 @@
     width: 40px;
     height: 40.06px;
 }
+
+@media screen and (min-width: 768px) {
+    .contatos-logo {
+        width: 60px;
+        height: 60.06px;
+    }
+}
