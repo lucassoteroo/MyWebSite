@@ -1,3 +1,12 @@
 .cabecalho_principal-lista {
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho_principal-lista {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 26.66% 26.66% 26.66%;
+    }
+}

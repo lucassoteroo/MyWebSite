@@ -1,11 +1,17 @@
 .container_titulo-imagem {
     width: 200px;
     margin: 4% auto;
-    box-shadow: 2px 2px 2px 2px #404046;
 }
 
 @media screen and (min-width: 768px) {
     .container_titulo-imagem {
         width: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container_titulo-imagem {
+        width: 400px;
+        margin: 0 0;
     }
 }

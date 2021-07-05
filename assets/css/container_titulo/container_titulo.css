@@ -3,3 +3,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (min-width: 1024px) {
+    .container_titulo {
+        width: 100vw;
+        position: absolute;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,15 @@
+.cabecalho_principal-link-2 {
+    margin: 6% 0;
+}
+
+.cabecalho_principal-link-2:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho_principal-link-2 {
+        margin: auto auto;
+        grid-row: 3/3;
+        grid-column: 1/1;
+    }
+}
