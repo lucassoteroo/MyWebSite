@@ -15,3 +15,12 @@
         border-bottom: 5px solid #404046;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container_titulo-principal {
+        font-size: 5rem;
+        border-bottom: 5px solid #404046;
+        flex: auto;
+        margin-bottom: auto;
+    }
+}

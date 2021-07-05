@@ -11,3 +11,10 @@
         padding: 2% 10%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .contatos-item {
+        font-size: 2.2rem;
+        padding: 2% 0%;
+    }
+}
