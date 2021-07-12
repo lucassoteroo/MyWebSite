@@ -1,6 +1,6 @@
 .container_titulo-imagem {
     width: 200px;
-    margin: 4% auto;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
