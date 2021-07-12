@@ -1,25 +1,25 @@
 .container_titulo-principal {
     text-align: center;
-    color: #404046;
+    color: #000;
     font-weight: 700;
     font-size: 3.25rem;
     font-family: 'Noto Sans', sans-serif;
     margin-top: 1%;
     padding-bottom: 1%;
-    border-bottom: 3px solid #404046;
+    border-bottom: 3px solid #000;
 }
 
 @media screen and (min-width: 768px) {
     .container_titulo-principal {
         font-size: 5rem;
-        border-bottom: 5px solid #404046;
+        border-bottom: 5px solid #000;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .container_titulo-principal {
         font-size: 5rem;
-        border-bottom: 5px solid #404046;
+        border-bottom: 5px solid #000;
         flex: auto;
         margin-bottom: auto;
     }
