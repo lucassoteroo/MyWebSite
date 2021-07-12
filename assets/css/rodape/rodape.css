@@ -1,6 +1,6 @@
 .rodape {
     display: flex;
-    background: #344561;
+    background: #000;
     justify-content: flex-end;
     height: 30px;
 }
