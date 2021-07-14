@@ -1,25 +1,25 @@
 .container_titulo-principal {
     text-align: center;
-    color: #014029;
+    color: #d1d5dd;
     font-weight: 700;
     font-size: 3.25rem;
     font-family: 'Noto Sans', sans-serif;
     margin-top: 1%;
     padding-bottom: 1%;
-    border-bottom: 3px solid #014029;
+    border-bottom: 3px solid #d1d5dd;
 }
 
 @media screen and (min-width: 768px) {
     .container_titulo-principal {
         font-size: 5rem;
-        border-bottom: 5px solid #014029;
+        border-bottom: 5px solid #d1d5dd;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .container_titulo-principal {
         font-size: 5rem;
-        border-bottom: 5px solid #014029;
+        border-bottom: 5px solid #d1d5dd;
         flex: auto;
         margin-bottom: auto;
     }
