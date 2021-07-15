@@ -1,3 +1,6 @@
+@import url('dados_pessoais-titulo.css');
+@import url('dados_pessoais-lista.css');
+@import url('dados_pessoais-item.css');
 .dados_pessoais {
     display: flex;
     flex-direction: column;

@@ -1,3 +1,7 @@
+@import url('conhecimentos-titulo.css');
+@import url('conhecimentos-lista.css');
+@import url('conhecimentos-item.css');
+@import url('conhecimentos-logo.css');
 .conhecimentos {
     display: flex;
     flex-direction: column;
