@@ -1,13 +1,5 @@
 .cabecalho_principal {
     display: flex;
     flex-direction: column;
-}
-
-@media screen and (min-width: 1024px) {
-    .cabecalho_principal {
-        display: grid;
-        grid-template-areas: "1";
-        grid-template-rows: 400px;
-        margin-right: 400px;
-    }
+    width: 100vw;
 }
