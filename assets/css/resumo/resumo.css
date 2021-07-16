@@ -1,0 +1,6 @@
+@import url('resumo-titulo.css');
+@import url('resumo-conteudo.css');
+.resumo {
+    display: flex;
+    flex-direction: column;
+}

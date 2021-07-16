@@ -1,3 +1,6 @@
+@import url('formacao-titulo.css');
+@import url('formacao-lista.css');
+@import url('formacao-item.css');
 .formacao {
     display: flex;
     flex-direction: column;

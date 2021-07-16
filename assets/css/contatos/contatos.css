@@ -1,3 +1,8 @@
+@import url('contatos-titulo.css');
+@import url('contatos-lista.css');
+@import url('contatos-link.css');
+@import url('contatos-item.css');
+@import url('contatos-logo.css');
 .contatos {
     display: flex;
     flex-direction: column;

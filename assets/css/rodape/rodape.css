@@ -1,3 +1,6 @@
+@import url('rodape-lista.css');
+@import url('rodape-item.css');
+@import url('rodape-imagem.css');
 .rodape {
     display: flex;
     background: #1a1a1f;
