@@ -5,11 +5,11 @@
     display: flex;
     background: #1a1a1f;
     justify-content: flex-end;
-    height: 30px;
+    height: 32px;
 }
 
 @media screen and (min-width: 768px) {
     .rodape {
-        height: 40px;
+        height: 50px;
     }
 }
