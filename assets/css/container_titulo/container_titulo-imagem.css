@@ -1,10 +1,10 @@
 .container_titulo-imagem {
-    width: 200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
     .container_titulo-imagem {
-        width: 350px;
+        width: 100%;
     }
 }
