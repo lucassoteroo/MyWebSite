@@ -1,11 +1,11 @@
 .rodape-imagem {
     width: 20px;
-    height: 20.08px;
+    height: 20px;
 }
 
 @media screen and (min-width: 768px) {
     .rodape-imagem {
         width: 30px;
-        height: 30.08px;
+        height: 30px;
     }
 }
