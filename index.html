@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog | Lucas Sotero</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/body.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/cabecalho_principal/cabecalho_principal.css">
     <link rel="stylesheet" href="assets/css/conteudo.css">
     <link rel="stylesheet" href="assets/css/container.css">
+    <link rel="stylesheet" href="assets/css/initial.css">
     <link rel="stylesheet" href="assets/css/dados_pessoais/dados_pessoais.css">
     <link rel="stylesheet" href="assets/css/resumo/resumo.css">
     <link rel="stylesheet" href="assets/css/conhecimentos/conhecimentos.css">
@@ -24,23 +26,36 @@
 </head>
 
 <body>
-    <div class="container_titulo">
-        <h1 class="container_titulo-principal">Lucas Sotero</h1>
+    <section class="initial">
+        <a href="#home"></a>
+        <div class="container_titulo">
+            <h1 class="container_titulo-principal">Lucas Sotero</h1>
+        </div>
         <div id="container_imagem-principal">
             <img src="./assets/img/perfil.jpg" alt="Foto de Perfil" srcset="" class="container_titulo-imagem">
         </div>
-    </div>
-    <header class="cabecalho_principal">
-        <div>
-            <ul class="cabecalho_principal-lista">
-                <li class="cabecalho_principal-link-0"><a href="#dadospessoais" class="cabecalho_principal-item">Dados Pessoais</a></li>
-                <li class="cabecalho_principal-link-1"><a href="#resumo" class="cabecalho_principal-item">Resumo</a></li>
-                <li class="cabecalho_principal-link-2"><a href="#conhecimentos" class="cabecalho_principal-item">Conhecimentos</a></li>
-                <li class="cabecalho_principal-link-3"><a href="#contatos" class="cabecalho_principal-item">Contatos</a></li>
-                <li class="cabecalho_principal-link-4"><a href="#formacao" class="cabecalho_principal-item">Formação</a></li>
-            </ul>
-        </div>
-    </header>
+        <header class="cabecalho_principal">
+            <div>
+                <ul class="cabecalho_principal-lista">
+                    <li class="cabecalho_principal-link">
+                        <a href="#dadospessoais" class="cabecalho_principal-item">Dados Pessoais</a>
+                    </li>
+                    <li class="cabecalho_principal-link">
+                        <a href="#resumo" class="cabecalho_principal-item">Resumo</a>
+                    </li>
+                    <li class="cabecalho_principal-link">
+                        <a href="#conhecimentos" class="cabecalho_principal-item">Conhecimentos</a>
+                    </li>
+                    <li class="cabecalho_principal-link">
+                        <a href="#contatos" class="cabecalho_principal-item">Contatos</a>
+                    </li>
+                    <li class="cabecalho_principal-link">
+                        <a href="#formacao" class="cabecalho_principal-item">Formação</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </section>
     <main class="conteudo">
         <div class="container">
             <section class="dados_pessoais">
@@ -56,55 +71,75 @@
         <div class="container">
             <section class="resumo">
                 <h3 class="resumo-titulo"><a name="resumo">Resumo</a></h3>
-                <p class="resumo-conteudo">Me chamo Lucas Sotero Rodrigues Abreu, nasci em 2001. Fiz 2 períodos de Engenharia Florestal na UFAM, porém não era o que eu queria para minha vida. Tranquei o curso e comecei a fazer o que sempre quis, COMPUTAÇÃO.</p>
+                <p class="resumo-conteudo">Me chamo <b>Lucas Sotero Rodrigues Abreu</b>, nasci em 2001 e me interesso por tecnologia desde que me entendo por gente, porém acho que tudo começou com os games.</p>
+                <p class="resumo-conteudo">Aos 18 anos passei para engenharia no Universidade Federal do Amazonas, só que o curso não era o que eu almejava, então aos 19, depois de 2 períodos, tranquei a faculdade e resolvi ir atrás das minhas ambições.</p>
+                <p class="resumo-conteudo">Hoje estudo na Universidade Paulista, estou no quarto período de Ciência da Computação, fazendo o que sempre almejei, trabalhar com desenvolvimento.</p>
             </section>
         </div>
         <div class="container">
             <section class="conhecimentos">
-                <h3 class="conhecimentos-titulo"><a name=conhecimentos>Conhecimentos</a></h3>
-                <ul class="conhecimentos-lista">
-                    <li class="conhecimentos-item">HTML 5</li>
-                    <img src="./assets/img/html5-logo.png" alt="Logo HTML5" srcset="" class="conhecimentos-logo">
-                    <li class="conhecimentos-item">CSS 3</li>
-                    <img src="./assets/img/css3-logo.png" alt="Logo CSS3" srcset="" class="conhecimentos-logo">
-                    <li class="conhecimentos-item">JavaScript</li>
-                    <img src="./assets/img/js-logo.png" alt="Logo JavaScript" srcset="" class="conhecimentos-logo">
-                    <li class="conhecimentos-item">Angular</li>
-                    <img src="./assets/img/angular-logo.png" alt="Logo Angular" srcset="" class="conhecimentos-logo">
-                </ul>
+                <div class="conhecimentos-linguagens">
+                    <h3 class="conhecimentos-titulo"><a name=conhecimentos>Conhecimentos</a></h3>
+                    <h4 class="conhecimentos-subtitulo">Dev Front-End</h4>
+                    <ul class="conhecimentos-lista">
+                        <li class="conhecimentos-item">HTML 5</li>
+                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="Logo HTML5" srcset="" class="conhecimentos-logo" />
+                        <li class="conhecimentos-item">CSS 3</li>
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="Logo CSS3" srcset="" class="conhecimentos-logo" />
+                        <li class="conhecimentos-item">JavaScript</li>
+                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="Logo JavaScript" srcset="" class="conhecimentos-logo" />
+                        <li class="conhecimentos-item">React</li>
+                        <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="Logo React" srcset="" class="conhecimentos-logo" />
+                    </ul>
+                    <h4 class="conhecimentos-subtitulo">Dev Back-End</h4>
+                    <ul class="conhecimentos-lista">
+                        <li class="conhecimentos-item">Python</li>
+                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Logo Python" srcset="" class="conhecimentos-logo" />
+                    </ul>
+                    <h4 class="conhecimentos-subtitulo">Design</h4>
+                    <ul class="conhecimentos-lista">
+                        <li class="conhecimentos-item">Canva</li>
+                        <img src="https://img.icons8.com/doodle/48/000000/canva.png" alt="Logo Canva" srcset="" class="conhecimentos-logo" />
+                        <li class="conhecimentos-item">Figma</li>
+                        <img src="https://img.icons8.com/color/48/000000/figma--v1.png" alt="Logo Figma" srcset="" class="conhecimentos-logo" />
+                    </ul>
             </section>
-        </div>
-        <div class="container">
-            <section class="contatos">
-                <h3 class="contatos-titulo"><a name="contatos">Contatos</a></h3>
-                <ul class="contatos-lista">
-                    <li class="contatos-item"><a href="https://github.com/lucassoteroo" class="contatos-link" target="_blank">github.com.br/lucassoteroo</a></li>
-                    <img src="./assets/img/github-logo.png" alt="Logo Github" srcset="" class="contatos-logo">
-                    <li class="contatos-item"><a href="https://www.linkedin.com/in/lucas-sotero-9011871b6/" class="contatos-link" target="_blank">linkedin.com/in/lucassoteroo14</a></li>
-                    <img src="./assets/img/linkedin-logo.png" alt="Logo Linkedin" srcset="" class="contatos-logo">
-                </ul>
-            </section>
-        </div>
-        <div class="container">
-            <section class="formacao">
-                <h3 class="formacao-titulo"><a name="formacao">Formação</a></h3>
-                <ul class="formacao-lista">
-                    <li class="formacao-item">Ciência Computação:</li>
-                    <li class="formacao-item">2020 ínicio -- 2024 término</li>
-                </ul>
-            </section>
-        </div>
+            </div>
+            <div class="container">
+                <section class="contatos">
+                    <h3 class="contatos-titulo"><a name="contatos">Contatos</a></h3>
+                    <ul class="contatos-lista">
+                        <li class="contatos-item"><a href="https://api.whatsapp.com/send?phone=5592993800146&text=Whatsapp" class="contatos-link" target="_blank">Whatsapp</a></li>
+                        <img src="https://img.icons8.com/office/40/000000/whatsapp--v1.png" alt="Logo Whatsapp" srcset="" class="contatos-logo" />
+                        <li class="contatos-item"><a href="https://www.linkedin.com/in/lucas-sotero-9011871b6/" class="contatos-link" target="_blank">Linkedin</a></li>
+                        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Logo Linkedin" srcset="" class="contatos-logo" />
+                        <li class="contatos-item"><a href="mailto:lucassoteroo14@gmail.com" class="contatos-link" target="_blank">Gmail</a></li>
+                        <img src="https://img.icons8.com/color/48/000000/gmail--v1.png" alt="Logo Gmail" srcset="" class="contatos-logo" />
+                    </ul>
+                </section>
+            </div>
+            <div class="container">
+                <section class="formacao">
+                    <h3 class="formacao-titulo"><a name="formacao">Formação</a></h3>
+                    <ul class="formacao-lista">
+                        <li class="formacao-item">Ciência Computação:</li>
+                        <li class="formacao-item">2020 ínicio -- 2024 término</li>
+                    </ul>
+                </section>
+            </div>
     </main>
     <footer class="rodape">
         <ul class="rodape-lista">
             <li class="rodape-item">
-                <a href="https://wa.me/5592993800146" class="rodape-link" target="_blank"><img src="./assets/img/wpp.png" alt="Logo Twitter" class="rodape-imagem"></a>
+                <a href="https://www.instagram.com/luucassotero/" class="rodape-link" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Logo Intagram" class="rodape-imagem" /></a>
             </li>
             <li class="rodape-item">
-                <a href="https://www.instagram.com/luucassotero/" class="rodape-link" target="_blank"><img src="./assets/img/insta.png" alt="Logo Intagram" class="rodape-imagem"></a>
+                <a href="https://twitter.com/LucasSotero8" class="rodape-link" target="_blank"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Logo Twitter" class="rodape-imagem" /></a>
             </li>
-            <li class="rodape-item">
-                <a href="https://twitter.com/LucasSotero8" class="rodape-link" target="_blank"><img src="./assets/img/twitter.png" alt="Logo Twitter" class="rodape-imagem"></a>
+        </ul>
+        <ul class="home">
+            <li class="rodape-item-home">
+                <a href="#" class="rodape-link"><img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Logo Twitter" class="rodape-imagem" /></a>
             </li>
         </ul>
     </footer>

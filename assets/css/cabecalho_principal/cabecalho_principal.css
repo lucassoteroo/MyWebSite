@@ -1,9 +1,5 @@
 @import url('cabecalho_principal-lista.css');
-@import url('cabecalho_principal-link-0.css');
-@import url('cabecalho_principal-link-1.css');
-@import url('cabecalho_principal-link-2.css');
-@import url('cabecalho_principal-link-3.css');
-@import url('cabecalho_principal-link-4.css');
+@import url('cabecalho_principal-link.css');
 @import url('cabecalho_principal-item.css');
 .cabecalho_principal {
     display: flex;
