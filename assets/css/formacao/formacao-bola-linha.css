@@ -1,0 +1,15 @@
+.formacao-bola {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #1a1a1f;
+    border-radius: 50%;
+}
+
+.formacao-linha {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #1a1a1f;
+    transform: translate(6px, -7px);
+}
