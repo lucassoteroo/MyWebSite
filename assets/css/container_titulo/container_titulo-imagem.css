@@ -1,6 +1,11 @@
 .container_titulo-imagem {
     width: 100%;
     margin: 0 auto;
+    filter: grayscale(25%);
+}
+
+.container_titulo-imagem:hover {
+    filter: grayscale(0%);
 }
 
 @media screen and (min-width: 768px) {

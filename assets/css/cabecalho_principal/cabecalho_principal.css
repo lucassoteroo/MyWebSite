@@ -3,6 +3,6 @@
 @import url('cabecalho_principal-item.css');
 .cabecalho_principal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100vw;
 }

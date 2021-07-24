@@ -2,13 +2,11 @@
     color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
-    padding: 3% 5%;
-    margin-top: 3%;
+    padding-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
     .formacao-item {
         font-size: 2.2rem;
-        padding: 1% 3%;
     }
 }
