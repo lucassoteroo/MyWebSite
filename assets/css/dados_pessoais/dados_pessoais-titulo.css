@@ -8,7 +8,7 @@
     padding-bottom: 1%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
     .dados_pessoais-titulo {
         font-size: 3.5rem;
         border-bottom: 3.5px solid #000000;

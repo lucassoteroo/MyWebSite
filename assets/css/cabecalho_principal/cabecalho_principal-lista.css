@@ -7,3 +7,9 @@
     width: 100vw;
     padding-top: 5%;
 }
+
+@media screen and (min-device-width: 1024px) {
+    .cabecalho_principal-lista {
+        padding-top: 1%;
+    }
+}

@@ -13,3 +13,14 @@
     background-color: #1a1a1f;
     transform: translate(6px, -7px);
 }
+
+@media screen and (min-device-width: 768px) {
+    .formacao-bola {
+        width: 20px;
+        height: 20px;
+    }
+    .formacao-linha {
+        width: 2px;
+        transform: translate(9px, -7px);
+    }
+}
