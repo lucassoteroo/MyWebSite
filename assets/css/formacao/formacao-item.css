@@ -5,8 +5,8 @@
     padding-bottom: 5%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
     .formacao-item {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
 }

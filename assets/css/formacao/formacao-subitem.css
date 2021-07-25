@@ -7,3 +7,9 @@
     font-family: 'Poppins', sans-serif;
     padding: 3% 5%;
 }
+
+@media screen and (min-device-width: 768px) {
+    .formacao-subitem {
+        font-size: 2.2rem;
+    }
+}

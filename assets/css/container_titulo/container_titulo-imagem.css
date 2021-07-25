@@ -8,7 +8,7 @@
     filter: grayscale(0%);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
     .container_titulo-imagem {
         width: 100%;
     }

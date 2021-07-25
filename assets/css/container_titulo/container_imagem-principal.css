@@ -6,12 +6,19 @@
     margin: 2% auto 2% auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
     #container_imagem-principal {
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 450px;
         overflow: hidden;
         border-radius: 50%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    #container_imagem-principal {
+        width: 500px;
+        height: 500px;
     }
 }
