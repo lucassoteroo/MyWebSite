@@ -17,8 +17,8 @@
 <section align="center">
   
   <h4>Versão desktop</h4>
-  <img src="template/template_desktop-01.png" />
-  <img src="template/template_desktop-02.png" />
+  <img src="template/template_desktop-1.png" />
+  <img src="template/template_desktop-2.png" />
   
 </section>
 
