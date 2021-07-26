@@ -30,7 +30,7 @@
 
 <p>Iniciei esse projeto com o intuito de praticar o que estava aprendendo enquanto estudava, porém decidi criar um website para servir como uma carta de entrada. Um site simples com o objetivo de conhecerem melhor meu lado profissional, e se gostarem, terem meios de entrar em contato comigo. </p>
 
-<h2>Motivo</h2>
+<h2>Objetivos</h2>
 
 <ol>
   <li>O site tem apenas a função de informar o leitor sobre meu trabalho, contendo alguns links para entrar em contato direto comigo</li>
