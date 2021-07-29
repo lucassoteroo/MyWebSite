@@ -1,3 +1,5 @@
+/*--Estilização da lista de items da seção conhecimentos--*/
+
 .conhecimentos-lista {
     text-align: center;
     display: flex;

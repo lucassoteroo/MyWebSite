@@ -1,6 +1,11 @@
+/*--Chamada dos arquivos css filhos--*/
+
 @import url('container_titulo-principal.css');
 @import url('container_titulo-imagem.css');
 @import url('container_imagem-principal.css');
+
+/*--Estilização do campo container título--*/
+
 .container_titulo {
     width: 100vw;
     display: flex;

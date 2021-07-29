@@ -1,3 +1,5 @@
+/*--Chamada dos arquivos css filhos--*/
+
 @import url('formacao-titulo.css');
 @import url('formacao-lista.css');
 @import url('formacao-item.css');
@@ -5,6 +7,9 @@
 @import url('formacao-data.css');
 @import url('formacao-bola-linha.css');
 @import url('formacao-periodo.css');
+
+/*--Estilização do campo formação--*/
+
 .formacao {
     display: flex;
     flex-direction: column;

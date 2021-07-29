@@ -1,8 +1,13 @@
+/*--Chamada dos arquivos css filhos--*/
+
 @import url('rodape-lista.css');
 @import url('rodape-item.css');
 @import url('rodape-imagem.css');
 @import url('rodape-home.css');
 @import url('rodape-item-home.css');
+
+/*--Estilização do campo rodapé--*/
+
 .rodape {
     display: flex;
     background: #1a1a1f;

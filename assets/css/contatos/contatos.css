@@ -1,8 +1,13 @@
+/*--Chamada dos arquivos css filhos--*/
+
 @import url('contatos-titulo.css');
 @import url('contatos-lista.css');
 @import url('contatos-link.css');
 @import url('contatos-item.css');
 @import url('contatos-logo.css');
+
+/*--Estilização do campo contatos--*/
+
 .contatos {
     display: flex;
     flex-direction: column;
