@@ -1,3 +1,5 @@
+/*--Estilização do subtexto/subitens da lista da seção formação--*/
+
 .formacao-subitem {
     display: inline-block;
     font-style: italic;

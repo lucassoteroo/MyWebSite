@@ -1,5 +1,10 @@
+/*--Chamada dos arquivos css filhos--*/
+
 @import url('resumo-titulo.css');
 @import url('resumo-conteudo.css');
+
+/*--Estilização do campo resumo--*/
+
 .resumo {
     display: flex;
     flex-direction: column;
