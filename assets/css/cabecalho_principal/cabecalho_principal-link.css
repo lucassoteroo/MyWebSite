@@ -1,7 +1,13 @@
 /*--Estilização dos links do menu de navegação--*/
 
 .cabecalho_principal-link {
-    margin: 5% 1%;
+    margin: 4% 20%;
+}
+
+@media screen and (min-device-width: 768px) {
+    .cabecalho_principal-link {
+        margin: 2% 0%;
+    }
 }
 
 @media screen and (min-device-width: 1024px) {
