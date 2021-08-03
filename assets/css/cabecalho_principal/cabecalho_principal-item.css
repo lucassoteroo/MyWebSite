@@ -10,14 +10,14 @@
 
 .cabecalho_principal-item:hover {
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
 }
 
 @media screen and (min-device-width: 768px) {
     .cabecalho_principal-item {
-        font-size: 1.7rem;
+        font-size: 3rem;
     }
     .cabecalho_principal-item:hover {
-        font-size: 1.85rem;
+        font-size: 3.2rem;
     }
 }
