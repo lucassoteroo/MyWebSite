@@ -21,3 +21,12 @@
         font-size: 3.2rem;
     }
 }
+
+@media screen and (min-device-width: 1024px) {
+    .cabecalho_principal-item {
+        font-size: 3.8rem;
+    }
+    .cabecalho_principal-item:hover {
+        font-size: 4rem;
+    }
+}

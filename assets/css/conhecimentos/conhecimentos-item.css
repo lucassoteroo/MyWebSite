@@ -16,3 +16,9 @@
         padding: 3% 2%;
     }
 }
+
+@media screen and (min-device-width: 1024px) {
+    .conhecimentos-item {
+        font-size: 3.4rem;
+    }
+}

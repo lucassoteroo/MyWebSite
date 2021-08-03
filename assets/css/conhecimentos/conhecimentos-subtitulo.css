@@ -18,3 +18,9 @@
         font-size: 2.8rem;
     }
 }
+
+@media screen and (min-device-width: 1024px) {
+    .conhecimentos-subtitulo {
+        font-size: 3rem;
+    }
+}

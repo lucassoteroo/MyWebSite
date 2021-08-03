@@ -14,3 +14,9 @@
         font-size: 3.2rem;
     }
 }
+
+@media screen and (min-device-width: 1024px) {
+    .resumo-conteudo {
+        font-size: 3.4rem;
+    }
+}

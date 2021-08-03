@@ -19,6 +19,7 @@
 
 @media screen and (min-device-width: 1024px) {
     .container_titulo-principal {
+        font-size: 6rem;
         margin-top: 0%;
         padding-bottom: 0%;
     }
