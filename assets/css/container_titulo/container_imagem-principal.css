@@ -17,10 +17,3 @@
         margin: 0 auto;
     }
 }
-
-@media screen and (min-device-width: 1024px) {
-    #container_imagem-principal {
-        width: 500px;
-        height: 500px;
-    }
-}
