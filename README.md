@@ -1,24 +1,23 @@
 <h2>Website</h2>
 
-<section align="center">
+<section>
   
-  <h4>Versão mobile</h4>
-  <img src="template/template_mobile.png" />
-  
-</section>
-
-<section align="center">
-  
-  <h4>Versão tablet</h4>
-  <img src="template/template_tablet.png" />
+  <h3 align="center">Versão mobile</h3>
+  <p align="center"> <img src="template/index-mobile.jpeg"/> </p>
   
 </section>
 
-<section align="center">
+<section>
   
-  <h4>Versão desktop</h4>
-  <img src="template/template_desktop-1.png" />
-  <img src="template/template_desktop-2.png" />
+  <h3 align="center">Versão tablet</h3>
+  <p align="center"> <img src="template/index-tablet.jpeg" /> </p>
+  
+</section>
+
+<section>
+  
+  <h3 align="center">Versão desktop</h3>
+  <p align="center"> <img src="template/index-desktop.jpeg" /> </p>  
   
 </section>
 
