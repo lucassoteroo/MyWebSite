@@ -1,8 +1,24 @@
-/*--Estilização da divisão do Home da lista do rodapé--*/
+/*--Estilização botao home no rodapé--*/
 
-.home {
-    display: flex;
-    position: absolute;
-    left: 0;
-    margin-left: 3%;
+.rodape-link {
+    width: 25px;
+    margin: 1% 1% 0 0;
+}
+
+.rodape-imagem {
+    border-style: none;
+    width: 100%;
+    filter: invert(100%);
+}
+
+@media screen and (min-device-width: 768px) {
+    .rodape-link {
+        width: 30px;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    .rodape-link {
+        width: 35px;
+    }
 }

@@ -1,6 +1,25 @@
-/*--Estilização dos itens da lista do rodapé--*/
+/*--Estilização dos itens do rodapé--*/
 
 .rodape-item {
-    list-style-type: none;
-    margin: 10%;
+    color: #d1d5dd;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+}
+
+.rodape-dev {
+    font-size: 80%;
+    display: block;
+}
+
+@media screen and (min-device-width: 768px) {
+    .rodape-item {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    .rodape-item {
+        font-size: 1.6rem;
+    }
 }

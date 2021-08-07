@@ -3,7 +3,7 @@
 .dados_pessoais-titulo {
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 3.25rem;
+    font-size: 2.8rem;
     font-weight: 600;
     border-bottom: 2px solid #000000;
     margin-top: 5%;
@@ -12,7 +12,13 @@
 
 @media screen and (min-device-width: 768px) {
     .dados_pessoais-titulo {
-        font-size: 4.5rem;
+        font-size: 3rem;
         border-bottom: 3.5px solid #000000;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    .dados_pessoais-titulo {
+        font-size: 3.2rem;
     }
 }

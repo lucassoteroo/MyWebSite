@@ -3,7 +3,7 @@
 .resumo-conteudo {
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     margin-top: 4%;
     text-align: justify;
     line-height: normal;
@@ -11,12 +11,12 @@
 
 @media screen and (min-device-width: 768px) {
     .resumo-conteudo {
-        font-size: 3.2rem;
+        font-size: 2.8rem;
     }
 }
 
 @media screen and (min-device-width: 1024px) {
     .resumo-conteudo {
-        font-size: 3.4rem;
+        font-size: 3rem;
     }
 }

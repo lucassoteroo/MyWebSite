@@ -10,8 +10,18 @@
 
 @media screen and (min-device-width: 768px) {
     #container_imagem-principal {
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    #container_imagem-principal {
+        width: 400px;
+        height: 400px;
         overflow: hidden;
         border-radius: 50%;
         margin: 0 auto;
