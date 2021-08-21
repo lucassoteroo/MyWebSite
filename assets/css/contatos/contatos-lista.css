@@ -1,9 +1,0 @@
-/*--Estilização da lista de items da seção contatos--*/
-
-.contatos-lista {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 3%;
-}
