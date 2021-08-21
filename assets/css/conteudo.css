@@ -1,7 +1,0 @@
-/*--Estilização do conteúdo para ocupar todo o tamanho do container--*/
-
-.conteudo {
-    width: 100vw;
-    background: #F5F5F5;
-    justify-content: center;
-}
