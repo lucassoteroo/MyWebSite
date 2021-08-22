@@ -76,6 +76,11 @@ main .col-lg-4 img {
 }
 
 @media (max-width: 768px) {
+    main .container-fluid,
+    main .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
     main .col-lg-3 {
         width: 25%;
     }
