@@ -74,3 +74,9 @@ main .contatos .col-lg-4 {
 main .col-lg-4 img {
     width: 60px;
 }
+
+@media (max-width: 768px) {
+    main .col-lg-3 {
+        width: 25%;
+    }
+}
