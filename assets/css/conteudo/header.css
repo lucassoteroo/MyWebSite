@@ -25,4 +25,24 @@ header a {
 
 header a:hover {
     text-decoration: underline;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    header .row {
+        padding: 0px;
+    }
+    header .col-lg-3,
+    header .col-lg-2 {
+        padding: 10px;
+    }
+    header .col-lg-12 {
+        padding: 15px 0;
+    }
+    header a {
+        font-size: 1.45rem;
+    }
+    header img {
+        width: 350px;
+    }
 }

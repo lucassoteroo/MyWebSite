@@ -58,6 +58,11 @@ main .col-lg-4 a {
     font-size: 1.3rem;
 }
 
+main .col-lg-4 a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 main .contatos .col-lg-4 p {
     margin-top: 1rem;
 }
