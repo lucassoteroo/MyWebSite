@@ -1,0 +1,13 @@
+@import url('./conteudo/header.css');
+@import url('./conteudo/main.css');
+@import url('./conteudo/footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400;1,600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 65.2%;
+    font-family: 'Urbanist', sans-serif;
+    background-color: #F2F2F2;
+}

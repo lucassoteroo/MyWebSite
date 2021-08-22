@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    background-color: #0D0D0D;
+}
+
+header .row {
+    padding: 40px 0;
+}
+
+header .col-lg-12,
+header .col-lg-3,
+header .col-lg-2 {
+    text-align: center;
+}
+
+header img {
+    width: 400px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
