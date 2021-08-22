@@ -79,4 +79,38 @@ main .col-lg-4 img {
     main .col-lg-3 {
         width: 25%;
     }
+    main h1 {
+        font-size: 1.5rem;
+    }
+    main p {
+        font-size: 1.1rem;
+    }
+    main .col-lg-4 h4 {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 15px 0;
+    }
+    main .col-lg-4 p {
+        font-size: .95rem;
+        text-align: center;
+    }
+    main .col-lg-2 {
+        width: 50%;
+    }
+    main .col-lg-2 p {
+        margin-bottom: .5rem;
+    }
+    main .col-lg-2 img {
+        padding-bottom: 15px;
+    }
+    main .col-lg-4 p,
+    main .col-lg-2 p {
+        font-size: .95rem;
+    }
+    main .col-lg-4 a {
+        font-size: 1.1rem;
+    }
+    main .contatos .col-lg-4 {
+        width: 33.3%;
+    }
 }
