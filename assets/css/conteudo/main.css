@@ -119,3 +119,39 @@ main .col-lg-4 img {
         width: 33.3%;
     }
 }
+
+@media (max-width: 576px) {
+    main .container-fluid,
+    main .row {
+        padding: 0 10px;
+    }
+    main h1 {
+        font-size: 1.3rem;
+    }
+    main .col-lg-3 {
+        width: 50%;
+    }
+    main .col-lg-3 p,
+    main .col-lg-12 p {
+        font-size: .985rem;
+    }
+    main .col-lg-12 {
+        margin: 10px 0;
+    }
+    main .col-lg-4 h4 {
+        font-size: .985rem;
+    }
+    main .col-lg-4 p,
+    main .col-lg-2 p {
+        font-size: .75rem;
+    }
+    main .col-lg-12 h4 {
+        font-size: 1rem;
+    }
+    main .contatos .col-lg-4 {
+        width: 100%;
+    }
+    main .contatos .col-lg-4 p {
+        font-size: .985rem;
+    }
+}
