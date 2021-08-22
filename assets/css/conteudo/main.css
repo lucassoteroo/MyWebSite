@@ -1,0 +1,71 @@
+main {
+    width: 100%;
+}
+
+main .col-lg-12 {
+    margin: 20px 0;
+}
+
+main .col-lg-3 {
+    text-align: center;
+}
+
+main h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: 2px solid #000;
+}
+
+main p {
+    font-size: 1.3rem;
+}
+
+main .resumo .col-lg-12 {
+    text-align: justify;
+}
+
+main .col-lg-4 {
+    padding: 0 10px;
+}
+
+main .col-lg-4 h4 {
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+main .col-lg-4 p,
+main .col-lg-2 p {
+    font-size: 1.15rem;
+}
+
+main .col-lg-12 h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+main .col-lg-2 {
+    text-align: center;
+}
+
+main .col-lg-2 img {
+    width: 60px;
+}
+
+main .col-lg-4 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+}
+
+main .contatos .col-lg-4 p {
+    margin-top: 1rem;
+}
+
+main .contatos .col-lg-4 {
+    text-align: center;
+}
+
+main .col-lg-4 img {
+    width: 60px;
+}

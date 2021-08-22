@@ -4,7 +4,7 @@ header {
 }
 
 header .row {
-    padding: 40px 0;
+    padding: 35px 0;
 }
 
 header .col-lg-12,
@@ -14,7 +14,7 @@ header .col-lg-2 {
 }
 
 header img {
-    width: 400px;
+    width: 450px;
 }
 
 header a {
