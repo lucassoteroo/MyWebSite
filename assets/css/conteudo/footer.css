@@ -30,3 +30,22 @@ footer a img {
     padding-left: 5px;
     width: 25px;
 }
+
+@media (max-width: 768px) {
+    footer .col-lg-8,
+    footer .col-lg-4 {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    footer .row {
+        padding: 0;
+    }
+    footer p {
+        font-size: .7rem;
+    }
+    footer a img {
+        width: 20px;
+    }
+}
