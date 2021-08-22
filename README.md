@@ -3,21 +3,21 @@
 <section>
   
   <h3 align="center">Versão mobile</h3>
-  <p align="center"> <img src="template/index-mobile.jpeg"/> </p>
+  <p align="center"> <img src=""/> </p>
   
 </section>
 
 <section>
   
   <h3 align="center">Versão tablet</h3>
-  <p align="center"> <img src="template/index-tablet.jpeg" /> </p>
+  <p align="center"> <img src="" /> </p>
   
 </section>
 
 <section>
   
   <h3 align="center">Versão desktop</h3>
-  <p align="center"> <img src="template/index-desktop.jpeg" /> </p>  
+  <p align="center"> <img src="" /> </p>  
   
 </section>
 
@@ -54,6 +54,7 @@
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![BOOTSTRAP](https://img.shields.io/badge/-BOOTSTRAP-7952B3?style=flat-square&logo=html5&logoColor=ffffff)
 ![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=canva&logoColor=ffffff)
 
 
