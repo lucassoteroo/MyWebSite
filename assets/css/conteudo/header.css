@@ -14,6 +14,8 @@ header .row {
     padding: 35px 0;
     text-align: center;
     align-items: center;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 header img {
