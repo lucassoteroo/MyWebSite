@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/body.css">
+    <script src="./assets/js/script.js" defer></script>
     <title>WebSite | Lucas Sotero</title>
 </head>
 
-<body>
+<body id="body">
     <header>
         <section class="cabecalho">
             <div class="container-fluid">
@@ -46,6 +47,10 @@
     </header>
     <main>
         <div class="container">
+            <div class="container-dark">
+                <input type="checkbox" name="darkMode" id="darkMode" onselect="marcado()">
+                <label for="dark" id="label"></label>
+            </div>
             <section class="dadosPessoais">
                 <div class="container-fluid">
                     <div class="row">
