@@ -1,0 +1,20 @@
+{
+    "name": "MyWebSite",
+    "version": "1.0.0",
+    "description": "Um site criado para conhecerem melhor o meu lado profissional",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lucassoteroo/MyWebSite.git"
+    },
+    "keywords": ["Website", "Front-End"],
+    "author": "Lucas Sotero R. Abreu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lucassoteroo/MyWebSite/issues"
+    },
+    "homepage": "https://github.com/lucassoteroo/MyWebSite#readme"
+}
