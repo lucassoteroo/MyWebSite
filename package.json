@@ -10,11 +10,23 @@
         "type": "git",
         "url": "git+https://github.com/lucassoteroo/MyWebSite.git"
     },
-    "keywords": ["Website", "Front-End"],
+    "keywords": [
+        "Website",
+        "Front-End"
+    ],
     "author": "Lucas Sotero R. Abreu",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/lucassoteroo/MyWebSite/issues"
     },
-    "homepage": "https://github.com/lucassoteroo/MyWebSite#readme"
+    "homepage": "https://github.com/lucassoteroo/MyWebSite#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssmin": "^0.2.0",
+        "gulp-rename": "^2.0.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    }
 }
