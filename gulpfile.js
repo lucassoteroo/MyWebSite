@@ -3,8 +3,11 @@ const concat = require('gulp-concat')
 const cssmin = require('gulp-cssmin')
 const rename = require('gulp-rename')
 
-function tarefasCSS(cb) {
-    return gulp.src('./src/css/*.css')
+function tarefasCSS() {
+    return gulp.src([
+            './src/css/*.css',
+            './node_modules/bootstrap/dist/css/bootstrap.css'
+        ])
         .pipe(concat('style.css'))
         .pipe(cssmin())
         .pipe(rename({ suffix: '.min' }))

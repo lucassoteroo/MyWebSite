@@ -29,6 +29,8 @@ header a {
 }
 
 header a:hover {
+    text-decoration: none;
+    color: #fff;
     text-decoration: underline;
     font-weight: 600;
 }
