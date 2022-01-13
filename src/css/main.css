@@ -147,6 +147,12 @@ main .col-lg-4 img {
     main .contatos .col-lg-4 {
         width: 33.3%;
     }
+    main .projetos .link {
+        margin: 0px 180px 5px 180px;
+    }
+    main .projetos .col-lg-4 span {
+        font-size: .965rem
+    }
 }
 
 @media (max-width: 576px) {
@@ -176,11 +182,24 @@ main .col-lg-4 img {
     }
     main .col-lg-12 h4 {
         font-size: 1rem;
+        margin-left: 0px;
     }
     main .contatos .col-lg-4 {
         width: 100%;
     }
     main .contatos .col-lg-4 p {
         font-size: .985rem;
+    }
+    main .projetos .link {
+        margin: 0px 80px 5px 80px;
+    }
+    main .projetos .col-lg-4 p {
+        font-size: .85rem
+    }
+    main .projetos .col-lg-4 a {
+        font-size: .985rem
+    }
+    main .projetos .col-lg-4 span {
+        font-size: .765rem
     }
 }
