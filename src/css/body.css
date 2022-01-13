@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,39 +7,7 @@
 
 body {
     font-size: 65.2%;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist', sans-serif !important;
     background-color: #F2F2F2;
     transition: background 0.5s linear, color 0.5s linear;
-}
-
-.darkMode {
-    font-size: 65.2%;
-    font-family: 'Urbanist', sans-serif;
-    background-color: #000;
-    color: #F2F2F2;
-}
-
-.container-dark {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-}
-
-label {
-    background-color: #000;
-    border-radius: 95%;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    user-select: none;
-    transition: background 0.5s linear;
-}
-
-.darkLabel {
-    background-color: #F2F2F2;
-}
-
-input {
-    visibility: hidden;
 }
