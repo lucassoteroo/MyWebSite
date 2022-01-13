@@ -3,21 +3,21 @@
 <section>
   
   <h3 align="center">Versão mobile</h3>
-  <p align="center"> <img src="./template/mobile.jpeg"/> </p>
+  <p align="center"> <img src="./template/template_mobile.jpeg.jpeg"/> </p>
   
 </section>
 
 <section>
   
   <h3 align="center">Versão tablet</h3>
-  <p align="center"> <img src="./template/tablet.jpeg" /> </p>
+  <p align="center"> <img src="./template/template_tablet.jpeg.jpeg" /> </p>
   
 </section>
 
 <section>
   
   <h3 align="center">Versão desktop</h3>
-  <p align="center"> <img src="./template/desktop.jpeg" /> </p>  
+  <p align="center"> <img src="./template/template_desktop.jpeg.jpeg" /> </p>  
   
 </section>
 
@@ -49,6 +49,10 @@
 <h2>Instalação</h2>
   
 <h5>$ git clone https://github.com/lucassoteroo/WebSite.git</h5> 
+
+<h2>Rodar o comando:</h2>
+  
+<h5>$ Npm install</h5> 
 
 <h2>Contrução</h2>
 
