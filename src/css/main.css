@@ -72,13 +72,10 @@ main .contatos .col-lg-4 {
     text-align: center;
 }
 
-main .projetos {
-    text-align: center;
-}
-
 main .projetos .col-lg-4 {
     padding: 0px 25px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 main .projetos .link {
