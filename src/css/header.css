@@ -78,8 +78,4 @@ header a:hover {
     header a {
         font-size: 1.1rem;
     }
-    header .col-lg-3,
-    header .col-lg-2 {
-        padding: 10px 0;
-    }
 }
