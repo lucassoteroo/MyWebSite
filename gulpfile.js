@@ -5,7 +5,7 @@ const rename = require('gulp-rename')
 
 function tarefasCSS() {
     return gulp.src([
-            './src/css/*.css',
+            './css/*css',
             './node_modules/bootstrap/dist/css/bootstrap.css'
         ])
         .pipe(concat('style.css'))
