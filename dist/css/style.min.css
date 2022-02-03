@@ -218,6 +218,7 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .dadosPessoais .container-fluid .row {
     text-align: center;
+    --bs-gutter-x: 0;
   }
   main .container .dadosPessoais .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
@@ -234,6 +235,7 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .resumo .container-fluid .row {
     text-align: center;
+    --bs-gutter-x: 0;
   }
   main .container .resumo .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
@@ -247,6 +249,7 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .formacao .container-fluid .row {
     text-align: center;
+    --bs-gutter-x: 0;
   }
   main .container .formacao .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
@@ -267,6 +270,7 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .projetos .container-fluid .row {
     text-align: center;
+    --bs-gutter-x: 0;
   }
   main .container .projetos .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
@@ -295,6 +299,7 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .conhecimentos .container-fluid .row {
     text-align: center;
+    --bs-gutter-x: 0;
   }
   main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
@@ -318,6 +323,7 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .contatos .container-fluid .row {
     text-align: center;
+    --bs-gutter-x: 0;
   }
   main .container .contatos .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
