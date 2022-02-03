@@ -299,6 +299,9 @@ main .contatos .col-lg-4 p a:hover {
   main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
     font-size: 1.5rem;
   }
+  main .container .conhecimentos .container-fluid .row .col-lg-12 h4 {
+    margin-left: 0px;
+  }
   main .container .conhecimentos .container-fluid .row .col-lg-2 {
     width: 50%;
   }
