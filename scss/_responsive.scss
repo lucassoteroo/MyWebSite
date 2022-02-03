@@ -25,6 +25,153 @@
             }
         }
     }
+    main {
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            .dadosPessoais {
+                .container-fluid {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .row {
+                        text-align: center;
+                        .col-lg-12 {
+                            h1 {
+                                font-size: $font-size-h1-tablet;
+                            }
+                        }
+                        .col-lg-3 {
+                            width: 25%;
+                            p {
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .resumo {
+                .container-fluid {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .row {
+                        text-align: center;
+                        .col-lg-12 {
+                            h1 {
+                                font-size: $font-size-h1-tablet;
+                            }
+                            p {
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .formacao {
+                .container-fluid {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .row {
+                        text-align: center;
+                        .col-lg-12 {
+                            h1 {
+                                font-size: $font-size-h1-tablet;
+                            }
+                        }
+                        .col-lg-4 {
+                            padding: 0 10px;
+                            h4 {
+                                font-size: 1.1rem;
+                                padding: 15px 0;
+                            }
+                            p {
+                                font-size: .95rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .projetos {
+                .container-fluid {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .row {
+                        text-align: center;
+                        .col-lg-12 {
+                            h1 {
+                                font-size: $font-size-h1-tablet;
+                            }
+                        }
+                        .col-lg-4 {
+                            h4 {
+                                padding: 15px 0;
+                                font-size: 1.1rem;
+                                text-align: center;
+                            }
+                            p {
+                                font-size: 0.95rem;
+                                text-align: center;
+                            }
+                            .link {
+                                margin: 0px 180px 5px;
+                                p {
+                                    a {
+                                        font-size: 1.1rem;
+                                    }
+                                }
+                            }
+                            span {
+                                font-size: .965rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .conhecimentos {
+                .container-fluid {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .row {
+                        text-align: center;
+                        .col-lg-12 {
+                            h1 {
+                                font-size: $font-size-h1-tablet;
+                            }
+                        }
+                        .col-lg-2 {
+                            width: 50%;
+                            p {
+                                font-size: .95rem;
+                                margin-bottom: .5rem;
+                            }
+                            img {
+                                padding-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .contatos {
+                .container-fluid {
+                    padding-left: 0;
+                    padding-right: 0;
+                    .row {
+                        text-align: center;
+                        .col-lg-12 {
+                            h1 {
+                                font-size: $font-size-h1-tablet;
+                            }
+                        }
+                        .col-lg-4 {
+                            width: 33.3%;
+                            p {
+                                font-size: 1.1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     footer {
         .row {
             padding: 0;
@@ -73,6 +220,153 @@
                     }
                     a {
                         font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .dadosPessoais {
+            .container-fluid {
+                padding: 0 10px;
+                .row {
+                    padding: 0 10px;
+                    text-align: center;
+                    .col-lg-12 {
+                        margin: $margin-mobile;
+                        h1 {
+                            font-size: $font-size-h1-mobile;
+                        }
+                    }
+                    .col-lg-3 {
+                        width: 50%;
+                        p {
+                            font-size: .985rem;
+                        }
+                    }
+                }
+            }
+        }
+        .resumo {
+            .container-fluid {
+                padding: 0 10px;
+                .row {
+                    padding: 0 10px;
+                    text-align: center;
+                    .col-lg-12 {
+                        margin: $margin-mobile;
+                        h1 {
+                            font-size: $font-size-h1-mobile;
+                        }
+                        p {
+                            font-size: .985rem;
+                        }
+                    }
+                }
+            }
+        }
+        .formacao {
+            .container-fluid {
+                padding: 0 10px;
+                .row {
+                    padding: 0 10px;
+                    text-align: center;
+                    .col-lg-12 {
+                        margin: $margin-mobile;
+                        h1 {
+                            font-size: $font-size-h1-mobile;
+                        }
+                    }
+                    .col-lg-4 {
+                        padding: 0 10px;
+                        h4 {
+                            font-size: .985rem;
+                        }
+                        p {
+                            font-size: .75rem;
+                        }
+                    }
+                }
+            }
+        }
+        .container {
+            .projetos {
+                .container-fluid {
+                    padding: 0 10px;
+                    .row {
+                        padding: 0 10px;
+                        text-align: center;
+                        .col-lg-12 {
+                            margin: $margin-mobile;
+                            h1 {
+                                font-size: $font-size-h1-mobile;
+                            }
+                        }
+                        .col-lg-4 {
+                            h4 {
+                                font-size: .985rem;
+                            }
+                            p {
+                                font-size: 0.85rem;
+                            }
+                            .link {
+                                margin: 0px 80px 5px;
+                                p {
+                                    font-size: .85rem;
+                                    a {
+                                        font-size: .985rem;
+                                    }
+                                }
+                            }
+                            span {
+                                font-size: .765rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .conhecimentos {
+            .container-fluid {
+                padding: 0 10px;
+                .row {
+                    padding: 0 10px;
+                    text-align: center;
+                    .col-lg-12 {
+                        margin: $margin-mobile;
+                        h1 {
+                            font-size: $font-size-h1-mobile;
+                        }
+                        h4 {
+                            font-size: 1rem;
+                            margin-left: 0;
+                        }
+                    }
+                    .col-lg-2 {
+                        p {
+                            font-size: .75rem;
+                        }
+                    }
+                }
+            }
+        }
+        .contatos {
+            .container-fluid {
+                padding: 0 10px;
+                .row {
+                    padding: 0 10px;
+                    text-align: center;
+                    .col-lg-12 {
+                        margin: $margin-mobile;
+                        h1 {
+                            font-size: $font-size-h1-mobile;
+                        }
+                    }
+                    .col-lg-4 {
+                        width: 100%;
+                        p {
+                            font-size: .985rem;
+                        }
                     }
                 }
             }

@@ -44,6 +44,144 @@ header .container-fluid .row a:hover {
   font-weight: 600;
 }
 
+main {
+  width: 100%;
+}
+main .dadosPessoais .col-lg-12 {
+  margin: 20px 0;
+}
+main .dadosPessoais .col-lg-12 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+main .dadosPessoais .col-lg-3 {
+  text-align: center;
+}
+main .dadosPessoais .col-lg-3 p {
+  font-size: 1.3rem;
+}
+main .resumo .col-lg-12 {
+  margin: 20px 0;
+}
+main .resumo .col-lg-12 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+main .resumo .col-lg-12 p {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+main .formacao .col-lg-12 {
+  margin: 20px 0;
+}
+main .formacao .col-lg-12 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+main .formacao .col-lg-4 {
+  padding: 0 10px;
+}
+main .formacao .col-lg-4 h4 {
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+main .formacao .col-lg-4 p {
+  font-size: 1.15rem;
+}
+main .projetos .col-lg-12 {
+  margin: 20px 0;
+}
+main .projetos .col-lg-12 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+main .projetos .col-lg-4 {
+  padding: 0 25px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+main .projetos .col-lg-4 h4 {
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+main .projetos .col-lg-4 p {
+  font-size: 1.15rem;
+}
+main .projetos .col-lg-4 .link {
+  border: 1px solid #000;
+  margin: 0px 100px 5px 100px;
+  background-color: #A6A6A6;
+}
+main .projetos .col-lg-4 .link p {
+  margin-bottom: 0;
+}
+main .projetos .col-lg-4 .link p a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+}
+main .projetos .col-lg-4 .link p a:hover {
+  text-decoration: none;
+  font-weight: 400;
+}
+main .projetos .col-lg-4 .link:hover {
+  background-color: #F2F2F2;
+}
+main .conhecimentos .col-lg-12 {
+  margin: 20px 0;
+}
+main .conhecimentos .col-lg-12 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+main .conhecimentos .col-lg-12 h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 70px;
+}
+main .conhecimentos .col-lg-2 {
+  text-align: center;
+}
+main .conhecimentos .col-lg-2 p {
+  font-size: 1.15rem;
+}
+main .conhecimentos .col-lg-2 img {
+  width: 60px;
+}
+main .contatos .col-lg-12 {
+  margin: 20px 0;
+}
+main .contatos .col-lg-12 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+}
+main .contatos .col-lg-4 {
+  text-align: center;
+}
+main .contatos .col-lg-4 img {
+  width: 60px;
+}
+main .contatos .col-lg-4 p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+main .contatos .col-lg-4 p a {
+  text-decoration: none;
+  color: #000;
+}
+main .contatos .col-lg-4 p a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   header .container-fluid {
     flex-direction: column;
@@ -68,6 +206,124 @@ header .container-fluid .row a:hover {
   }
   header .container-fluid .row .row .col-lg-4 {
     width: 33.33%;
+  }
+
+  main .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .dadosPessoais .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .dadosPessoais .container-fluid .row {
+    text-align: center;
+  }
+  main .container .dadosPessoais .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.5rem;
+  }
+  main .container .dadosPessoais .container-fluid .row .col-lg-3 {
+    width: 25%;
+  }
+  main .container .dadosPessoais .container-fluid .row .col-lg-3 p {
+    font-size: 1.1rem;
+  }
+  main .container .resumo .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .resumo .container-fluid .row {
+    text-align: center;
+  }
+  main .container .resumo .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.5rem;
+  }
+  main .container .resumo .container-fluid .row .col-lg-12 p {
+    font-size: 1.1rem;
+  }
+  main .container .formacao .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .formacao .container-fluid .row {
+    text-align: center;
+  }
+  main .container .formacao .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.5rem;
+  }
+  main .container .formacao .container-fluid .row .col-lg-4 {
+    padding: 0 10px;
+  }
+  main .container .formacao .container-fluid .row .col-lg-4 h4 {
+    font-size: 1.1rem;
+    padding: 15px 0;
+  }
+  main .container .formacao .container-fluid .row .col-lg-4 p {
+    font-size: 0.95rem;
+  }
+  main .container .projetos .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .projetos .container-fluid .row {
+    text-align: center;
+  }
+  main .container .projetos .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.5rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 h4 {
+    padding: 15px 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 .link {
+    margin: 0px 180px 5px;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 .link p a {
+    font-size: 1.1rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 span {
+    font-size: 0.965rem;
+  }
+  main .container .conhecimentos .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .conhecimentos .container-fluid .row {
+    text-align: center;
+  }
+  main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.5rem;
+  }
+  main .container .conhecimentos .container-fluid .row .col-lg-2 {
+    width: 50%;
+  }
+  main .container .conhecimentos .container-fluid .row .col-lg-2 p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  main .container .conhecimentos .container-fluid .row .col-lg-2 img {
+    padding-bottom: 15px;
+  }
+  main .container .contatos .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .container .contatos .container-fluid .row {
+    text-align: center;
+  }
+  main .container .contatos .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.5rem;
+  }
+  main .container .contatos .container-fluid .row .col-lg-4 {
+    width: 33.3%;
+  }
+  main .container .contatos .container-fluid .row .col-lg-4 p {
+    font-size: 1.1rem;
   }
 
   footer .row {
@@ -113,6 +369,134 @@ header .container-fluid .row a:hover {
   }
   header .container-fluid .row .row a {
     font-size: 1.1rem;
+  }
+
+  main .dadosPessoais .container-fluid {
+    padding: 0 10px;
+  }
+  main .dadosPessoais .container-fluid .row {
+    padding: 0 10px;
+    text-align: center;
+  }
+  main .dadosPessoais .container-fluid .row .col-lg-12 {
+    margin: 10px 0;
+  }
+  main .dadosPessoais .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.3rem;
+  }
+  main .dadosPessoais .container-fluid .row .col-lg-3 {
+    width: 50%;
+  }
+  main .dadosPessoais .container-fluid .row .col-lg-3 p {
+    font-size: 0.985rem;
+  }
+  main .resumo .container-fluid {
+    padding: 0 10px;
+  }
+  main .resumo .container-fluid .row {
+    padding: 0 10px;
+    text-align: center;
+  }
+  main .resumo .container-fluid .row .col-lg-12 {
+    margin: 10px 0;
+  }
+  main .resumo .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.3rem;
+  }
+  main .resumo .container-fluid .row .col-lg-12 p {
+    font-size: 0.985rem;
+  }
+  main .formacao .container-fluid {
+    padding: 0 10px;
+  }
+  main .formacao .container-fluid .row {
+    padding: 0 10px;
+    text-align: center;
+  }
+  main .formacao .container-fluid .row .col-lg-12 {
+    margin: 10px 0;
+  }
+  main .formacao .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.3rem;
+  }
+  main .formacao .container-fluid .row .col-lg-4 {
+    padding: 0 10px;
+  }
+  main .formacao .container-fluid .row .col-lg-4 h4 {
+    font-size: 0.985rem;
+  }
+  main .formacao .container-fluid .row .col-lg-4 p {
+    font-size: 0.75rem;
+  }
+  main .container .projetos .container-fluid {
+    padding: 0 10px;
+  }
+  main .container .projetos .container-fluid .row {
+    padding: 0 10px;
+    text-align: center;
+  }
+  main .container .projetos .container-fluid .row .col-lg-12 {
+    margin: 10px 0;
+  }
+  main .container .projetos .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.3rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 h4 {
+    font-size: 0.985rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 p {
+    font-size: 0.85rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 .link {
+    margin: 0px 80px 5px;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 .link p {
+    font-size: 0.85rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 .link p a {
+    font-size: 0.985rem;
+  }
+  main .container .projetos .container-fluid .row .col-lg-4 span {
+    font-size: 0.765rem;
+  }
+  main .conhecimentos .container-fluid {
+    padding: 0 10px;
+  }
+  main .conhecimentos .container-fluid .row {
+    padding: 0 10px;
+    text-align: center;
+  }
+  main .conhecimentos .container-fluid .row .col-lg-12 {
+    margin: 10px 0;
+  }
+  main .conhecimentos .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.3rem;
+  }
+  main .conhecimentos .container-fluid .row .col-lg-12 h4 {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  main .conhecimentos .container-fluid .row .col-lg-2 p {
+    font-size: 0.75rem;
+  }
+  main .contatos .container-fluid {
+    padding: 0 10px;
+  }
+  main .contatos .container-fluid .row {
+    padding: 0 10px;
+    text-align: center;
+  }
+  main .contatos .container-fluid .row .col-lg-12 {
+    margin: 10px 0;
+  }
+  main .contatos .container-fluid .row .col-lg-12 h1 {
+    font-size: 1.3rem;
+  }
+  main .contatos .container-fluid .row .col-lg-4 {
+    width: 100%;
+  }
+  main .contatos .container-fluid .row .col-lg-4 p {
+    font-size: 0.985rem;
   }
 
   footer .row .col-lg-8,
