@@ -69,6 +69,28 @@ header .container-fluid .row a:hover {
   header .container-fluid .row .row .col-lg-4 {
     width: 33.33%;
   }
+
+  footer .row {
+    padding: 0;
+  }
+  footer .row .col-lg-8 {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  footer .row .col-lg-8 p {
+    font-size: 0.7rem;
+  }
+  footer .row .col-lg-4 {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  footer .row .col-lg-4 a img {
+    width: 20px;
+  }
 }
 @media (max-width: 576px) {
   header .container-fluid .row {
@@ -92,6 +114,39 @@ header .container-fluid .row a:hover {
   header .container-fluid .row .row a {
     font-size: 1.1rem;
   }
+
+  footer .row .col-lg-8,
+footer .row .col-lg-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+footer {
+  width: 100%;
+  background-color: #0D0D0D;
+}
+footer .row {
+  padding: 10px 0;
+}
+footer .row .col-lg-8 {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+footer .row .col-lg-8 p {
+  color: #FFF;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+footer .row .col-lg-4 {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 8px;
+}
+footer .row .col-lg-4 a img {
+  filter: invert(100%);
+  padding-left: 5px;
+  width: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

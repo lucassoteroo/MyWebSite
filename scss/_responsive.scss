@@ -25,6 +25,31 @@
             }
         }
     }
+    footer {
+        .row {
+            padding: 0;
+            .col-lg-8 {
+                width: 50%;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                p {
+                    font-size: .7rem;
+                }
+            }
+            .col-lg-4 {
+                width: 50%;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                a {
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -50,6 +75,15 @@
                         font-size: 1.1rem;
                     }
                 }
+            }
+        }
+    }
+    footer {
+        .row {
+            .col-lg-8,
+            .col-lg-4 {
+                padding-left: 5px;
+                padding-right: 5px;
             }
         }
     }
