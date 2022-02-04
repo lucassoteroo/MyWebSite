@@ -549,7 +549,6 @@ footer .row .col-lg-4 {
   padding-top: 8px;
 }
 footer .row .col-lg-4 a img {
-  filter: invert(100%);
   padding-left: 5px;
   width: 25px;
 }
