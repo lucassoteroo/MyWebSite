@@ -38,10 +38,8 @@ header .container-fluid .row a {
   font-size: 1.5rem;
 }
 header .container-fluid .row a:hover {
-  text-decoration: none;
   color: #FFF;
   text-decoration: underline;
-  font-weight: 600;
 }
 
 main {
@@ -179,7 +177,6 @@ main .contatos .col-lg-4 p a {
 }
 main .contatos .col-lg-4 p a:hover {
   font-weight: 600;
-  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -206,6 +203,9 @@ main .contatos .col-lg-4 p a:hover {
   }
   header .container-fluid .row .row .col-lg-4 {
     width: 33.33%;
+  }
+  header .container-fluid .row .row a {
+    font-size: 1.3rem;
   }
 
   main .container {
