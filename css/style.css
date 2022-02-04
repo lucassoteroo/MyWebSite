@@ -114,7 +114,7 @@ main .projetos .col-lg-4 p {
 main .projetos .col-lg-4 .link {
   border: 1px solid #000;
   margin: 0px 100px 5px 100px;
-  background-color: #C8F1F4;
+  background-color: #737373;
 }
 main .projetos .col-lg-4 .link p {
   margin-bottom: 0;
@@ -129,7 +129,7 @@ main .projetos .col-lg-4 .link p a:hover {
   font-weight: 600;
 }
 main .projetos .col-lg-4 .link:hover {
-  background-color: #DCECF4;
+  background-color: #A6A6A6;
 }
 main .conhecimentos .col-lg-12 {
   margin: 20px 0;
