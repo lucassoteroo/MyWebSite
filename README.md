@@ -59,9 +59,9 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![BOOTSTRAP](https://img.shields.io/badge/-BOOTSTRAP-7952B3?style=flat-square&logo=html5&logoColor=ffffff)
-![Gulp](https://img.shields.io/badge/-Gulp-CF4647?style=flat-square&logo=gulp&logoColor=ffffff)
-![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=ffffff)
-![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=canva&logoColor=ffffff)
+![Gulp](https://img.shields.io/badge/-GULP-CF4647?style=flat-square&logo=gulp&logoColor=ffffff)
+![Sass](https://img.shields.io/badge/-SASS-CC6699?style=flat-square&logo=sass&logoColor=ffffff)
+![Canva](https://img.shields.io/badge/-CANVA-00C4CC?style=flat-square&logo=canva&logoColor=ffffff)
 
 
 
