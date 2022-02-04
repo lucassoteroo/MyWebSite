@@ -34,11 +34,9 @@
             padding-right: 0;
             .dadosPessoais {
                 .container-fluid {
-                    padding-left: 0;
-                    padding-right: 0;
+                    @include container-fluid;
                     .row {
-                        text-align: center;
-                        --bs-gutter-x: 0;
+                        @include row;
                         .col-lg-12 {
                             h1 {
                                 font-size: $font-size-h1-tablet;
@@ -55,11 +53,9 @@
             }
             .resumo {
                 .container-fluid {
-                    padding-left: 0;
-                    padding-right: 0;
+                    @include container-fluid;
                     .row {
-                        text-align: center;
-                        --bs-gutter-x: 0;
+                        @include row;
                         .col-lg-12 {
                             h1 {
                                 font-size: $font-size-h1-tablet;
@@ -73,11 +69,9 @@
             }
             .formacao {
                 .container-fluid {
-                    padding-left: 0;
-                    padding-right: 0;
+                    @include container-fluid;
                     .row {
-                        text-align: center;
-                        --bs-gutter-x: 0;
+                        @include row;
                         .col-lg-12 {
                             h1 {
                                 font-size: $font-size-h1-tablet;
@@ -98,11 +92,9 @@
             }
             .projetos {
                 .container-fluid {
-                    padding-left: 0;
-                    padding-right: 0;
+                    @include container-fluid;
                     .row {
-                        text-align: center;
-                        --bs-gutter-x: 0;
+                        @include row;
                         .col-lg-12 {
                             h1 {
                                 font-size: $font-size-h1-tablet;
@@ -135,11 +127,9 @@
             }
             .conhecimentos {
                 .container-fluid {
-                    padding-left: 0;
-                    padding-right: 0;
+                    @include container-fluid;
                     .row {
-                        text-align: center;
-                        --bs-gutter-x: 0;
+                        @include row;
                         .col-lg-12 {
                             h1 {
                                 font-size: $font-size-h1-tablet;
@@ -163,11 +153,9 @@
             }
             .contatos {
                 .container-fluid {
-                    padding-left: 0;
-                    padding-right: 0;
+                    @include container-fluid;
                     .row {
-                        text-align: center;
-                        --bs-gutter-x: 0;
+                        @include row;
                         .col-lg-12 {
                             h1 {
                                 font-size: $font-size-h1-tablet;
@@ -238,70 +226,70 @@
         }
     }
     main {
-        .dadosPessoais {
-            .container-fluid {
-                padding: 0 10px;
-                .row {
-                    padding: 0 10px;
-                    text-align: center;
-                    .col-lg-12 {
-                        margin: $margin-mobile;
-                        h1 {
-                            font-size: $font-size-h1-mobile;
-                        }
-                    }
-                    .col-lg-3 {
-                        width: 50%;
-                        p {
-                            font-size: .985rem;
-                        }
-                    }
-                }
-            }
-        }
-        .resumo {
-            .container-fluid {
-                padding: 0 10px;
-                .row {
-                    padding: 0 10px;
-                    text-align: center;
-                    .col-lg-12 {
-                        margin: $margin-mobile;
-                        h1 {
-                            font-size: $font-size-h1-mobile;
-                        }
-                        p {
-                            font-size: .985rem;
-                        }
-                    }
-                }
-            }
-        }
-        .formacao {
-            .container-fluid {
-                padding: 0 10px;
-                .row {
-                    padding: 0 10px;
-                    text-align: center;
-                    .col-lg-12 {
-                        margin: $margin-mobile;
-                        h1 {
-                            font-size: $font-size-h1-mobile;
-                        }
-                    }
-                    .col-lg-4 {
-                        padding: 0 10px;
-                        h4 {
-                            font-size: .985rem;
-                        }
-                        p {
-                            font-size: .75rem;
-                        }
-                    }
-                }
-            }
-        }
         .container {
+            .dadosPessoais {
+                .container-fluid {
+                    padding: 0 10px;
+                    .row {
+                        padding: 0 10px;
+                        text-align: center;
+                        .col-lg-12 {
+                            @include mobile($fs-mobile: none);
+                            h1 {
+                                @include mobile($m-b: none);
+                            }
+                        }
+                        .col-lg-3 {
+                            width: 50%;
+                            p {
+                                font-size: .985rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .resumo {
+                .container-fluid {
+                    padding: 0 10px;
+                    .row {
+                        padding: 0 10px;
+                        text-align: center;
+                        .col-lg-12 {
+                            @include mobile($fs-mobile: none);
+                            h1 {
+                                @include mobile($m-b: none);
+                            }
+                            p {
+                                font-size: .985rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .formacao {
+                .container-fluid {
+                    padding: 0 10px;
+                    .row {
+                        padding: 0 10px;
+                        text-align: center;
+                        .col-lg-12 {
+                            @include mobile($fs-mobile: none);
+                            h1 {
+                                @include mobile($m-b: none);
+                            }
+                        }
+                        .col-lg-4 {
+                            padding: 0 10px;
+                            h4 {
+                                font-size: .985rem;
+                            }
+                            p {
+                                font-size: .75rem;
+                            }
+                        }
+                    }
+                }
+            }
             .projetos {
                 .container-fluid {
                     padding: 0 10px;
@@ -309,9 +297,9 @@
                         padding: 0 10px;
                         text-align: center;
                         .col-lg-12 {
-                            margin: $margin-mobile;
+                            @include mobile($fs-mobile: none);
                             h1 {
-                                font-size: $font-size-h1-mobile;
+                                @include mobile($m-b: none);
                             }
                         }
                         .col-lg-4 {
@@ -337,47 +325,47 @@
                     }
                 }
             }
-        }
-        .conhecimentos {
-            .container-fluid {
-                padding: 0 10px;
-                .row {
+            .conhecimentos {
+                .container-fluid {
                     padding: 0 10px;
-                    text-align: center;
-                    .col-lg-12 {
-                        margin: $margin-mobile;
-                        h1 {
-                            font-size: $font-size-h1-mobile;
+                    .row {
+                        padding: 0 10px;
+                        text-align: center;
+                        .col-lg-12 {
+                            @include mobile($fs-mobile: none);
+                            h1 {
+                                @include mobile($m-b: none);
+                            }
+                            h4 {
+                                font-size: 1rem;
+                                margin-left: 0;
+                            }
                         }
-                        h4 {
-                            font-size: 1rem;
-                            margin-left: 0;
-                        }
-                    }
-                    .col-lg-2 {
-                        p {
-                            font-size: .75rem;
+                        .col-lg-2 {
+                            p {
+                                font-size: .75rem;
+                            }
                         }
                     }
                 }
             }
-        }
-        .contatos {
-            .container-fluid {
-                padding: 0 10px;
-                .row {
+            .contatos {
+                .container-fluid {
                     padding: 0 10px;
-                    text-align: center;
-                    .col-lg-12 {
-                        margin: $margin-mobile;
-                        h1 {
-                            font-size: $font-size-h1-mobile;
+                    .row {
+                        padding: 0 10px;
+                        text-align: center;
+                        .col-lg-12 {
+                            @include mobile($fs-mobile: none);
+                            h1 {
+                                @include mobile($m-b: none);
+                            }
                         }
-                    }
-                    .col-lg-4 {
-                        width: 100%;
-                        p {
-                            font-size: .985rem;
+                        .col-lg-4 {
+                            width: 100%;
+                            p {
+                                font-size: .985rem;
+                            }
                         }
                     }
                 }

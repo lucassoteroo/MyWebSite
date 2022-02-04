@@ -380,61 +380,67 @@ main .contatos .col-lg-4 p a:hover {
     font-size: 1.1rem;
   }
 
-  main .dadosPessoais .container-fluid {
+  main .container .dadosPessoais .container-fluid {
     padding: 0 10px;
   }
-  main .dadosPessoais .container-fluid .row {
+  main .container .dadosPessoais .container-fluid .row {
     padding: 0 10px;
     text-align: center;
   }
-  main .dadosPessoais .container-fluid .row .col-lg-12 {
+  main .container .dadosPessoais .container-fluid .row .col-lg-12 {
     margin: 10px 0;
+    font-size: none;
   }
-  main .dadosPessoais .container-fluid .row .col-lg-12 h1 {
+  main .container .dadosPessoais .container-fluid .row .col-lg-12 h1 {
+    margin: none;
     font-size: 1.3rem;
   }
-  main .dadosPessoais .container-fluid .row .col-lg-3 {
+  main .container .dadosPessoais .container-fluid .row .col-lg-3 {
     width: 50%;
   }
-  main .dadosPessoais .container-fluid .row .col-lg-3 p {
+  main .container .dadosPessoais .container-fluid .row .col-lg-3 p {
     font-size: 0.985rem;
   }
-  main .resumo .container-fluid {
+  main .container .resumo .container-fluid {
     padding: 0 10px;
   }
-  main .resumo .container-fluid .row {
+  main .container .resumo .container-fluid .row {
     padding: 0 10px;
     text-align: center;
   }
-  main .resumo .container-fluid .row .col-lg-12 {
+  main .container .resumo .container-fluid .row .col-lg-12 {
     margin: 10px 0;
+    font-size: none;
   }
-  main .resumo .container-fluid .row .col-lg-12 h1 {
+  main .container .resumo .container-fluid .row .col-lg-12 h1 {
+    margin: none;
     font-size: 1.3rem;
   }
-  main .resumo .container-fluid .row .col-lg-12 p {
+  main .container .resumo .container-fluid .row .col-lg-12 p {
     font-size: 0.985rem;
   }
-  main .formacao .container-fluid {
+  main .container .formacao .container-fluid {
     padding: 0 10px;
   }
-  main .formacao .container-fluid .row {
+  main .container .formacao .container-fluid .row {
     padding: 0 10px;
     text-align: center;
   }
-  main .formacao .container-fluid .row .col-lg-12 {
+  main .container .formacao .container-fluid .row .col-lg-12 {
     margin: 10px 0;
+    font-size: none;
   }
-  main .formacao .container-fluid .row .col-lg-12 h1 {
+  main .container .formacao .container-fluid .row .col-lg-12 h1 {
+    margin: none;
     font-size: 1.3rem;
   }
-  main .formacao .container-fluid .row .col-lg-4 {
+  main .container .formacao .container-fluid .row .col-lg-4 {
     padding: 0 10px;
   }
-  main .formacao .container-fluid .row .col-lg-4 h4 {
+  main .container .formacao .container-fluid .row .col-lg-4 h4 {
     font-size: 0.985rem;
   }
-  main .formacao .container-fluid .row .col-lg-4 p {
+  main .container .formacao .container-fluid .row .col-lg-4 p {
     font-size: 0.75rem;
   }
   main .container .projetos .container-fluid {
@@ -446,8 +452,10 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .projetos .container-fluid .row .col-lg-12 {
     margin: 10px 0;
+    font-size: none;
   }
   main .container .projetos .container-fluid .row .col-lg-12 h1 {
+    margin: none;
     font-size: 1.3rem;
   }
   main .container .projetos .container-fluid .row .col-lg-4 h4 {
@@ -468,43 +476,47 @@ main .contatos .col-lg-4 p a:hover {
   main .container .projetos .container-fluid .row .col-lg-4 span {
     font-size: 0.765rem;
   }
-  main .conhecimentos .container-fluid {
+  main .container .conhecimentos .container-fluid {
     padding: 0 10px;
   }
-  main .conhecimentos .container-fluid .row {
+  main .container .conhecimentos .container-fluid .row {
     padding: 0 10px;
     text-align: center;
   }
-  main .conhecimentos .container-fluid .row .col-lg-12 {
+  main .container .conhecimentos .container-fluid .row .col-lg-12 {
     margin: 10px 0;
+    font-size: none;
   }
-  main .conhecimentos .container-fluid .row .col-lg-12 h1 {
+  main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
+    margin: none;
     font-size: 1.3rem;
   }
-  main .conhecimentos .container-fluid .row .col-lg-12 h4 {
+  main .container .conhecimentos .container-fluid .row .col-lg-12 h4 {
     font-size: 1rem;
     margin-left: 0;
   }
-  main .conhecimentos .container-fluid .row .col-lg-2 p {
+  main .container .conhecimentos .container-fluid .row .col-lg-2 p {
     font-size: 0.75rem;
   }
-  main .contatos .container-fluid {
+  main .container .contatos .container-fluid {
     padding: 0 10px;
   }
-  main .contatos .container-fluid .row {
+  main .container .contatos .container-fluid .row {
     padding: 0 10px;
     text-align: center;
   }
-  main .contatos .container-fluid .row .col-lg-12 {
+  main .container .contatos .container-fluid .row .col-lg-12 {
     margin: 10px 0;
+    font-size: none;
   }
-  main .contatos .container-fluid .row .col-lg-12 h1 {
+  main .container .contatos .container-fluid .row .col-lg-12 h1 {
+    margin: none;
     font-size: 1.3rem;
   }
-  main .contatos .container-fluid .row .col-lg-4 {
+  main .container .contatos .container-fluid .row .col-lg-4 {
     width: 100%;
   }
-  main .contatos .container-fluid .row .col-lg-4 p {
+  main .container .contatos .container-fluid .row .col-lg-4 p {
     font-size: 0.985rem;
   }
 
