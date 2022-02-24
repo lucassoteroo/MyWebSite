@@ -90,6 +90,24 @@ main .formacao .col-lg-4 h4 {
 main .formacao .col-lg-4 p {
   font-size: 1.15rem;
 }
+main .formacao .col-lg-4 .link {
+  border: 1px solid #000;
+  margin: 0px 100px 5px 100px;
+  background-color: #BFBFBF;
+  text-align: center;
+}
+main .formacao .col-lg-4 .link p {
+  margin-bottom: 0;
+}
+main .formacao .col-lg-4 .link p a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+}
+main .formacao .col-lg-4 .link p a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
 main .projetos .col-lg-12 {
   margin: 20px 0;
 }
