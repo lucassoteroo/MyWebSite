@@ -499,6 +499,9 @@ main .contatos .col-lg-4 p a:hover {
   main .container .conhecimentos .container-fluid .row .col-lg-2 p {
     font-size: 0.75rem;
   }
+  main .container .conhecimentos .container-fluid .row .col-lg-2 img {
+    width: 50px;
+  }
   main .container .contatos .container-fluid {
     padding: 0 10px;
   }
@@ -519,6 +522,9 @@ main .contatos .col-lg-4 p a:hover {
   }
   main .container .contatos .container-fluid .row .col-lg-4 p {
     font-size: 0.985rem;
+  }
+  main .container .contatos .container-fluid .row .col-lg-4 img {
+    width: 50px;
   }
 
   footer .row .col-lg-8,
