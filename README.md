@@ -63,7 +63,7 @@
 ![BOOTSTRAP](https://img.shields.io/badge/-BOOTSTRAP-7952B3?style=flat-square&logo=html5&logoColor=ffffff)
 ![Gulp](https://img.shields.io/badge/-GULP-CF4647?style=flat-square&logo=gulp&logoColor=ffffff)
 ![Sass](https://img.shields.io/badge/-SASS-CC6699?style=flat-square&logo=sass&logoColor=ffffff)
-![Canva](https://img.shields.io/badge/-CANVA-00C4CC?style=flat-square&logo=canva&logoColor=ffffff)
+![Canva](https://img.shields.io/badge/-FIGMA-F24E1E?style=flat-square&logo=figma&logoColor=ffffff)
 
 
 
