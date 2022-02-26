@@ -2,8 +2,8 @@
 
 <section>
   
-  <h3 align="center">Versão mobile</h3>
-  <p align="center"> <img src="./template/template-mobile.jpeg"/> </p>
+  <h3 align="center">Versão desktop</h3>
+  <p align="center"> <img src="./template/template-desktop.jpeg" /> </p>  
   
 </section>
 
@@ -16,10 +16,12 @@
 
 <section>
   
-  <h3 align="center">Versão desktop</h3>
-  <p align="center"> <img src="./template/template-desktop.jpeg" /> </p>  
+  <h3 align="center">Versão mobile</h3>
+  <p align="center"> <img src="./template/template-mobile.jpeg"/> </p>
   
 </section>
+
+
 
 <h2>Sobre</h2>
 
