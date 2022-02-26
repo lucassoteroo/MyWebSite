@@ -73,14 +73,14 @@ main {
                 font-size: 1.15rem;
             }
             .link {
-                border: 1px solid #000;
+                background-color: $color-07;
+                border: 1px solid $color-07;
                 margin: 0px 100px 5px 100px;
-                background-color: #BFBFBF;
                 p {
                     margin-bottom: 0;
                     a {
                         text-decoration: none;
-                        color: #000;
+                        color: $color-03;
                         font-size: 1.3rem;
                     }
                     a:hover {
@@ -90,7 +90,7 @@ main {
                 }
             }
             .link:hover {
-                background-color: #F2F2F2;
+                background-color: $color-06;
             }
         }
     }
