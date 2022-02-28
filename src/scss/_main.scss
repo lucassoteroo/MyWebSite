@@ -73,6 +73,21 @@ main {
                 font-size: 1.15rem;
             }
             .link {
+                a {
+                    background-color: $color-07;
+                    border: 1px solid $color-07;
+                    margin-bottom: 5px;
+                    padding: 5px 20px;
+                    color: $color-03;
+                    font-size: 1.3rem;
+                    &:hover {
+                        font-weight: 600;
+                        background-color: $color-06;
+                    }
+                }
+            }
+            /*
+            .link {
                 background-color: $color-07;
                 border: 1px solid $color-07;
                 margin: 0px 100px 5px 100px;
@@ -92,6 +107,7 @@ main {
             .link:hover {
                 background-color: $color-06;
             }
+            */
         }
     }
     .conhecimentos {

@@ -78,28 +78,45 @@ main {
   main .projetos .col-lg-4 {
     padding: 0 25px;
     margin-bottom: 5px;
-    text-align: center; }
+    text-align: center;
+    /*
+            .link {
+                background-color: $color-07;
+                border: 1px solid $color-07;
+                margin: 0px 100px 5px 100px;
+                p {
+                    margin-bottom: 0;
+                    a {
+                        text-decoration: none;
+                        color: $color-03;
+                        font-size: 1.3rem;
+                    }
+                    a:hover {
+                        text-decoration: none;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .link:hover {
+                background-color: $color-06;
+            }
+            */ }
     main .projetos .col-lg-4 h4 {
       padding-bottom: 10px;
       font-size: 1.3rem;
       font-weight: 600; }
     main .projetos .col-lg-4 p {
       font-size: 1.15rem; }
-    main .projetos .col-lg-4 .link {
+    main .projetos .col-lg-4 .link a {
       background-color: #41505e;
       border: 1px solid #41505e;
-      margin: 0px 100px 5px 100px; }
-      main .projetos .col-lg-4 .link p {
-        margin-bottom: 0; }
-        main .projetos .col-lg-4 .link p a {
-          text-decoration: none;
-          color: #FFF;
-          font-size: 1.3rem; }
-        main .projetos .col-lg-4 .link p a:hover {
-          text-decoration: none;
-          font-weight: 600; }
-    main .projetos .col-lg-4 .link:hover {
-      background-color: #222222; }
+      margin-bottom: 5px;
+      padding: 5px 20px;
+      color: #FFF;
+      font-size: 1.3rem; }
+      main .projetos .col-lg-4 .link a:hover {
+        font-weight: 600;
+        background-color: #62788d; }
   main .conhecimentos .col-lg-12 {
     margin: 20px 0; }
     main .conhecimentos .col-lg-12 h1 {
@@ -214,7 +231,7 @@ main {
           text-align: center; }
         main .container .projetos .container-fluid .row .col-lg-4 .link {
           margin: 0px 180px 5px; }
-          main .container .projetos .container-fluid .row .col-lg-4 .link p a {
+          main .container .projetos .container-fluid .row .col-lg-4 .link a {
             font-size: 1.1rem; }
         main .container .projetos .container-fluid .row .col-lg-4 span {
           font-size: .965rem; }
@@ -342,10 +359,8 @@ main {
         font-size: 0.85rem; }
       main .container .projetos .container-fluid .row .col-lg-4 .link {
         margin: 0px 80px 5px; }
-        main .container .projetos .container-fluid .row .col-lg-4 .link p {
-          font-size: .85rem; }
-          main .container .projetos .container-fluid .row .col-lg-4 .link p a {
-            font-size: .985rem; }
+        main .container .projetos .container-fluid .row .col-lg-4 .link a {
+          font-size: .985rem; }
       main .container .projetos .container-fluid .row .col-lg-4 span {
         font-size: .765rem; }
   main .container .conhecimentos .container-fluid {
