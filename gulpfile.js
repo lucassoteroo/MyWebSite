@@ -8,7 +8,7 @@ const sass = require('gulp-sass')(require('node-sass'))
 
 function tarefasCSS(cb) {
     gulp.src([
-            './src/css/*css',
+            './src/css/*.css',
             './node_modules/bootstrap/dist/css/bootstrap.css'
         ])
         .pipe(concat('style.css'))
@@ -25,7 +25,7 @@ function tarefasSASS(cb) {
     cb()
 }
 
-const process = series(tarefasCSS, tarefasSASS)
+const process = series(tarefasSASS, tarefasCSS)
 
 
 exports.styles = tarefasCSS
