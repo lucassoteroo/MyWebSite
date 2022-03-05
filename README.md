@@ -3,21 +3,21 @@
 <section>
   
   <h3 align="center">Versão desktop</h3>
-  <p align="center"> <img src="./template/templateDesktop.jpeg" /> </p>  
+  <p align="center"> <img src="./template/desktop.jpeg" /> </p>  
   
 </section>
 
 <section>
   
   <h3 align="center">Versão tablet</h3>
-  <p align="center"> <img src="./template/templateTablet.jpeg" /> </p>
+  <p align="center"> <img src="./template/tablet.jpeg" /> </p>
   
 </section>
 
 <section>
   
   <h3 align="center">Versão mobile</h3>
-  <p align="center"> <img src="./template/templateMobile.jpeg"/> </p>
+  <p align="center"> <img src="./template/mobile.jpeg"/> </p>
   
 </section>
 
