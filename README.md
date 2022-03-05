@@ -43,9 +43,8 @@
 <ul>
   <li>Clicando em qualquer item do menu (localizado acima da minha foto) você é direcionando para a seção de leitura referente.</li>
   <li>Clicando em um dos botões "link do projeto", o usuário é direcionado para o repositório do projeto no meu Github</li>
-  <li>Os links na seção "Contatos" redirecionam o usuário para os respectivos aplicativos (linkedin, github e gmail).</li>
-  <li>O link com o ícone de casa, é a Home, um gancho para levar o usuário de volta para o topo do site.</li>
-  <li>Os links no do rodapé (whatsapp, instagram e twitter) são minhas redes sociais mais usadas, caso queira me conhecer melhor.</li>
+  <li>As imagens na seção "Contatos" redirecionam o usuário para os respectivos aplicativos (linkedin, github e gmail).</li>
+  <li>As imagens do rodapé (whatsapp, instagram e twitter) são minhas redes sociais mais usadas, caso queira me conhecer melhor, será redirecionado para a respectiva rede social</li>
 </ul>
 
 <h2>Instalação</h2>
