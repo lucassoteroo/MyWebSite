@@ -78,29 +78,7 @@ main {
   main .projetos .col-lg-4 {
     padding: 0 25px;
     margin-bottom: 5px;
-    text-align: center;
-    /*
-            .link {
-                background-color: $color-07;
-                border: 1px solid $color-07;
-                margin: 0px 100px 5px 100px;
-                p {
-                    margin-bottom: 0;
-                    a {
-                        text-decoration: none;
-                        color: $color-03;
-                        font-size: 1.3rem;
-                    }
-                    a:hover {
-                        text-decoration: none;
-                        font-weight: 600;
-                    }
-                }
-            }
-            .link:hover {
-                background-color: $color-06;
-            }
-            */ }
+    text-align: center; }
     main .projetos .col-lg-4 h4 {
       padding-bottom: 10px;
       font-size: 1.3rem;
@@ -128,10 +106,8 @@ main {
       font-weight: 600;
       margin-left: 70px; }
   main .conhecimentos .col-lg-2 {
-    text-align: center; }
-    main .conhecimentos .col-lg-2 p {
-      font-size: 1.15rem;
-      margin-top: 1rem; }
+    text-align: center;
+    margin: 1.5rem 0; }
     main .conhecimentos .col-lg-2 img {
       width: 60px; }
   main .contatos .col-lg-12 {
@@ -141,17 +117,10 @@ main {
       font-weight: 600;
       border-bottom: 2px solid #000; }
   main .contatos .col-lg-4 {
-    text-align: center; }
+    text-align: center;
+    margin: 2rem 0 3rem 0; }
     main .contatos .col-lg-4 img {
       width: 60px; }
-    main .contatos .col-lg-4 p {
-      font-size: 1.3rem;
-      margin-top: 1rem; }
-      main .contatos .col-lg-4 p a {
-        text-decoration: none;
-        color: #000; }
-      main .contatos .col-lg-4 p a:hover {
-        font-weight: 600; }
 
 @media (max-width: 768px) {
   header .container-fluid {
@@ -393,9 +362,8 @@ main {
           margin: none;
           font-size: 1.3rem; }
       main .container .contatos .container-fluid .row .col-lg-4 {
-        width: 100%; }
-        main .container .contatos .container-fluid .row .col-lg-4 p {
-          font-size: .985rem; }
+        width: 100%;
+        margin: 2rem 0 2rem 0; }
         main .container .contatos .container-fluid .row .col-lg-4 img {
           width: 50px; }
   footer .row .col-lg-8,

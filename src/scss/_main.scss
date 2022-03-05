@@ -86,28 +86,6 @@ main {
                     }
                 }
             }
-            /*
-            .link {
-                background-color: $color-07;
-                border: 1px solid $color-07;
-                margin: 0px 100px 5px 100px;
-                p {
-                    margin-bottom: 0;
-                    a {
-                        text-decoration: none;
-                        color: $color-03;
-                        font-size: 1.3rem;
-                    }
-                    a:hover {
-                        text-decoration: none;
-                        font-weight: 600;
-                    }
-                }
-            }
-            .link:hover {
-                background-color: $color-06;
-            }
-            */
         }
     }
     .conhecimentos {
@@ -126,10 +104,7 @@ main {
         }
         .col-lg-2 {
             text-align: center;
-            p {
-                font-size: 1.15rem;
-                margin-top: 1rem;
-            }
+            margin: 1.5rem 0;
             img {
                 width: 60px;
             }
@@ -146,19 +121,9 @@ main {
         }
         .col-lg-4 {
             text-align: center;
+            margin: 2rem 0 3rem 0;
             img {
                 width: 60px;
-            }
-            p {
-                font-size: 1.3rem;
-                margin-top: 1rem;
-                a {
-                    text-decoration: none;
-                    color: #000;
-                }
-                a:hover {
-                    font-weight: 600;
-                }
             }
         }
     }
