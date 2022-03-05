@@ -91,9 +91,9 @@ main {
       margin-bottom: 5px;
       padding: 5px 20px;
       color: #FFF;
-      font-size: 1.3rem; }
+      font-size: 1.3rem;
+      font-weight: 600; }
       main .projetos .col-lg-4 .link a:hover {
-        font-weight: 600;
         background-color: #62788d; }
   main .conhecimentos .col-lg-12 {
     margin: 20px 0; }
