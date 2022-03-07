@@ -51,9 +51,17 @@
   
 <h5>$ git clone https://github.com/lucassoteroo/WebSite.git</h5> 
 
-<h2>Rodar o comando:</h2>
+<h2>1. Rodar o comando:</h2>
   
-<h5>$ Npm install</h5> 
+```
+$ Npm install
+``` 
+
+<h2>2. Rodar o comando:</h2>
+
+```
+$ Npm run build
+```
 
 <h2>Contrução</h2>
 
@@ -61,6 +69,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![BOOTSTRAP](https://img.shields.io/badge/-BOOTSTRAP-7952B3?style=flat-square&logo=html5&logoColor=ffffff)
 ![Gulp](https://img.shields.io/badge/-GULP-CF4647?style=flat-square&logo=gulp&logoColor=ffffff)
+![Webpack](https://img.shields.io/badge/-WEBPACK-8DD6F9?style=flat-square&logo=webpack&logoColor=ffffff)
 ![Sass](https://img.shields.io/badge/-SASS-CC6699?style=flat-square&logo=sass&logoColor=ffffff)
 ![Canva](https://img.shields.io/badge/-FIGMA-F24E1E?style=flat-square&logo=figma&logoColor=ffffff)
 
