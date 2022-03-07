@@ -2,9 +2,10 @@
     "name": "MyWebSite",
     "version": "1.0.0",
     "description": "Um site criado para conhecerem melhor o meu lado profissional",
-    "main": "index.js",
+    "private": "true",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
     },
     "repository": {
         "type": "git",
@@ -21,12 +22,19 @@
     },
     "homepage": "https://github.com/lucassoteroo/MyWebSite#readme",
     "devDependencies": {
+        "css-loader": "^6.7.0",
+        "file-loader": "^6.2.0",
         "gulp": "^4.0.2",
         "gulp-concat": "^2.6.1",
         "gulp-cssmin": "^0.2.0",
         "gulp-rename": "^2.0.0",
         "gulp-sass": "^5.1.0",
-        "node-sass": "^7.0.1"
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "node-sass": "^7.0.1",
+        "sass-loader": "^12.6.0",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2"
     },
     "dependencies": {
         "bootstrap": "^5.1.3"

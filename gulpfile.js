@@ -8,13 +8,11 @@ const sass = require('gulp-sass')(require('node-sass'))
 
 function tarefasCSS(cb) {
     gulp.src([
-            './src/css/*.css',
             './node_modules/bootstrap/dist/css/bootstrap.css'
         ])
-        .pipe(concat('style.css'))
+        .pipe(concat('bootstrap.css'))
         .pipe(cssmin())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('./dist/css'))
+        .pipe(gulp.dest('./src/css'))
     cb()
 }
 
