@@ -347,8 +347,12 @@ main {
       flex-direction: row; }
       header .container-fluid .row .row .col-lg-6 {
         width: 50%; }
+        header .container-fluid .row .row .col-lg-6 a {
+          font-size: 1.3rem; }
       header .container-fluid .row .row .col-lg-4 {
         width: 33.33%; }
+        header .container-fluid .row .row .col-lg-4 a {
+          font-size: 1.3rem; }
   main .container .dadosPessoais .container-fluid {
     padding: 0 10px; }
     main .container .dadosPessoais .container-fluid .row {
@@ -357,8 +361,12 @@ main {
       main .container .dadosPessoais .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
+        main .container .dadosPessoais .container-fluid .row .col-lg-12 h1 {
+          font-size: 1.5rem; }
       main .container .dadosPessoais .container-fluid .row .col-lg-3 {
         width: 50%; }
+        main .container .dadosPessoais .container-fluid .row .col-lg-3 p {
+          font-size: 1.15rem; }
   main .container .resumo .container-fluid {
     padding: 0 10px; }
     main .container .resumo .container-fluid .row {
@@ -367,6 +375,10 @@ main {
       main .container .resumo .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
+        main .container .resumo .container-fluid .row .col-lg-12 h1 {
+          font-size: 1.5rem; }
+        main .container .resumo .container-fluid .row .col-lg-12 p {
+          font-size: 1.15rem; }
   main .container .formacao .container-fluid {
     padding: 0 10px; }
     main .container .formacao .container-fluid .row {
@@ -375,6 +387,8 @@ main {
       main .container .formacao .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
+        main .container .formacao .container-fluid .row .col-lg-12 h1 {
+          font-size: 1.5rem; }
       main .container .formacao .container-fluid .row .col-lg-4 {
         padding: 0 10px; }
   main .container .projetos .container-fluid {
@@ -385,6 +399,8 @@ main {
       main .container .projetos .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
+        main .container .projetos .container-fluid .row .col-lg-12 h1 {
+          font-size: 1.5rem; }
       main .container .projetos .container-fluid .row .col-lg-4 .link {
         margin: 0px 80px 5px; }
         main .container .projetos .container-fluid .row .col-lg-4 .link a {
@@ -397,6 +413,8 @@ main {
       main .container .conhecimentos .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
+        main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
+          font-size: 1.5rem; }
         main .container .conhecimentos .container-fluid .row .col-lg-12 h4 {
           margin-left: 0; }
       main .container .conhecimentos .container-fluid .row .col-lg-2 img {
@@ -409,6 +427,8 @@ main {
       main .container .contatos .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
+        main .container .contatos .container-fluid .row .col-lg-12 h1 {
+          font-size: 1.5rem; }
       main .container .contatos .container-fluid .row .col-lg-4 {
         width: 100%;
         margin: 2rem 0 2rem 0; }
@@ -433,17 +453,44 @@ main {
 
 @media (max-width: 576px) {
   header .cabecalho-preview .container-fluid .row h1 {
-    font-size: 3.2rem; }
+    font-size: 2.8rem; }
   header .cabecalho-preview .container-fluid .row h3 {
-    font-size: 2rem; }
+    font-size: 1.8rem; }
   main .preview .motivos,
   main .preview .objetivos,
-  main .preview .codigo {
+  main .preview .codigo,
+  main .preview .templates {
     width: 100%; }
+    main .preview .motivos .col-lg-12 h6,
+    main .preview .objetivos .col-lg-12 h6,
+    main .preview .codigo .col-lg-12 h6,
+    main .preview .templates .col-lg-12 h6 {
+      font-size: 1.5rem; }
+    main .preview .motivos .col-lg-12 p,
+    main .preview .objetivos .col-lg-12 p,
+    main .preview .codigo .col-lg-12 p,
+    main .preview .templates .col-lg-12 p {
+      font-size: 1.15rem; }
+    main .preview .motivos .col-lg-12 li,
+    main .preview .objetivos .col-lg-12 li,
+    main .preview .codigo .col-lg-12 li,
+    main .preview .templates .col-lg-12 li {
+      font-size: 1.15rem; }
+    main .preview .motivos .col-lg-12 .link a,
+    main .preview .objetivos .col-lg-12 .link a,
+    main .preview .codigo .col-lg-12 .link a,
+    main .preview .templates .col-lg-12 .link a {
+      font-size: 1.15rem; }
   main .preview .funcionalidades,
   main .preview .construcao {
     width: 100%;
-    margin-left: 0; } }
+    margin-left: 0; }
+    main .preview .funcionalidades .col-lg-12 h6,
+    main .preview .construcao .col-lg-12 h6 {
+      font-size: 1.5rem; }
+    main .preview .funcionalidades .col-lg-12 li,
+    main .preview .construcao .col-lg-12 li {
+      font-size: 1.15rem; } }
 
 footer {
   width: 100%;

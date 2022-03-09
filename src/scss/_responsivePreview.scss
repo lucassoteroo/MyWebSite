@@ -39,10 +39,10 @@
             .container-fluid {
                 .row {
                     h1 {
-                        font-size: 3.2rem;
+                        font-size: 2.8rem;
                     }
                     h3 {
-                        font-size: 2rem;
+                        font-size: 1.8rem;
                     }
                 }
             }
@@ -52,13 +52,38 @@
         .preview {
             .motivos,
             .objetivos,
-            .codigo {
+            .codigo,
+            .templates {
                 width: 100%;
+                .col-lg-12 {
+                    h6 {
+                        font-size: 1.5rem;
+                    }
+                    p {
+                        font-size: 1.15rem;
+                    }
+                    li {
+                        font-size: 1.15rem;
+                    }
+                    .link {
+                        a {
+                            font-size: 1.15rem;
+                        }
+                    }
+                }
             }
             .funcionalidades,
             .construcao {
                 width: 100%;
                 margin-left: 0;
+                .col-lg-12 {
+                    h6 {
+                        font-size: 1.5rem;
+                    }
+                    li {
+                        font-size: 1.15rem;
+                    }
+                }
             }
         }
     }

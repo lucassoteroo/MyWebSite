@@ -159,9 +159,15 @@
                     flex-direction: row;
                     .col-lg-6 {
                         width: 50%;
+                        a {
+                            font-size: 1.3rem;
+                        }
                     }
                     .col-lg-4 {
                         width: 33.33%;
+                        a {
+                            font-size: 1.3rem;
+                        }
                     }
                 }
             }
@@ -177,9 +183,15 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
+                            h1 {
+                                font-size: 1.5rem;
+                            }
                         }
                         .col-lg-3 {
                             width: 50%;
+                            p {
+                                font-size: 1.15rem;
+                            }
                         }
                     }
                 }
@@ -192,6 +204,12 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
+                            h1 {
+                                font-size: 1.5rem;
+                            }
+                            p {
+                                font-size: 1.15rem;
+                            }
                         }
                     }
                 }
@@ -204,6 +222,9 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
+                            h1 {
+                                font-size: 1.5rem;
+                            }
                         }
                         .col-lg-4 {
                             padding: 0 10px;
@@ -219,6 +240,9 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
+                            h1 {
+                                font-size: 1.5rem;
+                            }
                         }
                         .col-lg-4 {
                             .link {
@@ -239,6 +263,9 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
+                            h1 {
+                                font-size: 1.5rem;
+                            }
                             h4 {
                                 margin-left: 0;
                             }
@@ -259,6 +286,9 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
+                            h1 {
+                                font-size: 1.5rem;
+                            }
                         }
                         .col-lg-4 {
                             width: 100%;
