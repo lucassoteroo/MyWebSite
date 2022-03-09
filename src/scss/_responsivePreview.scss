@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+    header {
+        .cabecalho-preview {
+            .container-fluid {
+                .row {
+                    h1 {
+                        font-size: 3.8rem;
+                    }
+                    h3 {
+                        font-size: 2.25rem;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .preview {
+            .construcao {
+                .col-lg-2 {
+                    width: 50%;
+                    margin: 0;
+                    padding: 10px 0;
+                }
+            }
+            .templates {
+                .col-lg-12 {
+                    img {
+                        max-width: inherit;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        .cabecalho-preview {
+            .container-fluid {
+                .row {
+                    h1 {
+                        font-size: 3.2rem;
+                    }
+                    h3 {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .preview {
+            .motivos,
+            .objetivos,
+            .codigo {
+                width: 100%;
+            }
+            .funcionalidades,
+            .construcao {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    }
+}

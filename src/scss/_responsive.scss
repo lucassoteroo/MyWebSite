@@ -21,9 +21,6 @@
                     .col-lg-4 {
                         width: 33.33%;
                     }
-                    a {
-                        font-size: 1.3rem;
-                    }
                 }
             }
         }
@@ -37,16 +34,8 @@
                     @include container-fluid;
                     .row {
                         @include row;
-                        .col-lg-12 {
-                            h1 {
-                                font-size: $font-size-h1-tablet;
-                            }
-                        }
                         .col-lg-3 {
                             width: 25%;
-                            p {
-                                font-size: 1.1rem;
-                            }
                         }
                     }
                 }
@@ -56,14 +45,6 @@
                     @include container-fluid;
                     .row {
                         @include row;
-                        .col-lg-12 {
-                            h1 {
-                                font-size: $font-size-h1-tablet;
-                            }
-                            p {
-                                font-size: 1.1rem;
-                            }
-                        }
                     }
                 }
             }
@@ -72,19 +53,10 @@
                     @include container-fluid;
                     .row {
                         @include row;
-                        .col-lg-12 {
-                            h1 {
-                                font-size: $font-size-h1-tablet;
-                            }
-                        }
                         .col-lg-4 {
                             padding: 0 10px;
                             h4 {
-                                font-size: 1.1rem;
                                 padding: 15px 0;
-                            }
-                            p {
-                                font-size: .95rem;
                             }
                         }
                     }
@@ -95,29 +67,16 @@
                     @include container-fluid;
                     .row {
                         @include row;
-                        .col-lg-12 {
-                            h1 {
-                                font-size: $font-size-h1-tablet;
-                            }
-                        }
                         .col-lg-4 {
                             h4 {
                                 padding: 15px 0;
-                                font-size: 1.1rem;
                                 text-align: center;
                             }
                             p {
-                                font-size: 0.95rem;
                                 text-align: center;
                             }
                             .link {
                                 margin: 0px 180px 5px;
-                                a {
-                                    font-size: 1.1rem;
-                                }
-                            }
-                            span {
-                                font-size: .965rem;
                             }
                         }
                     }
@@ -129,9 +88,6 @@
                     .row {
                         @include row;
                         .col-lg-12 {
-                            h1 {
-                                font-size: $font-size-h1-tablet;
-                            }
                             h4 {
                                 margin-left: 0px;
                             }
@@ -139,7 +95,6 @@
                         .col-lg-2 {
                             width: 50%;
                             p {
-                                font-size: .95rem;
                                 margin-bottom: .5rem;
                             }
                             img {
@@ -154,16 +109,8 @@
                     @include container-fluid;
                     .row {
                         @include row;
-                        .col-lg-12 {
-                            h1 {
-                                font-size: $font-size-h1-tablet;
-                            }
-                        }
                         .col-lg-4 {
                             width: 33.3%;
-                            p {
-                                font-size: 1.1rem;
-                            }
                         }
                     }
                 }
@@ -216,9 +163,6 @@
                     .col-lg-4 {
                         width: 33.33%;
                     }
-                    a {
-                        font-size: 1.1rem;
-                    }
                 }
             }
         }
@@ -233,15 +177,9 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
-                            h1 {
-                                @include mobile($m-b: none);
-                            }
                         }
                         .col-lg-3 {
                             width: 50%;
-                            p {
-                                font-size: .985rem;
-                            }
                         }
                     }
                 }
@@ -254,12 +192,6 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
-                            h1 {
-                                @include mobile($m-b: none);
-                            }
-                            p {
-                                font-size: .985rem;
-                            }
                         }
                     }
                 }
@@ -272,18 +204,9 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
-                            h1 {
-                                @include mobile($m-b: none);
-                            }
                         }
                         .col-lg-4 {
                             padding: 0 10px;
-                            h4 {
-                                font-size: .985rem;
-                            }
-                            p {
-                                font-size: .75rem;
-                            }
                         }
                     }
                 }
@@ -296,25 +219,13 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
-                            h1 {
-                                @include mobile($m-b: none);
-                            }
                         }
                         .col-lg-4 {
-                            h4 {
-                                font-size: .985rem;
-                            }
-                            p {
-                                font-size: 0.85rem;
-                            }
                             .link {
                                 margin: 0px 80px 5px;
                                 a {
                                     font-size: .985rem;
                                 }
-                            }
-                            span {
-                                font-size: .765rem;
                             }
                         }
                     }
@@ -328,18 +239,11 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
-                            h1 {
-                                @include mobile($m-b: none);
-                            }
                             h4 {
-                                font-size: 1rem;
                                 margin-left: 0;
                             }
                         }
                         .col-lg-2 {
-                            p {
-                                font-size: .75rem;
-                            }
                             img {
                                 width: 50px;
                             }
@@ -355,9 +259,6 @@
                         text-align: center;
                         .col-lg-12 {
                             @include mobile($fs-mobile: none);
-                            h1 {
-                                @include mobile($m-b: none);
-                            }
                         }
                         .col-lg-4 {
                             width: 100%;

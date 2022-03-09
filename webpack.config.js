@@ -33,6 +33,18 @@ module.exports = {
             filename: './html/index.html',
             template: './src/html/index.html'
         }),
+        new HtmlWebpack({
+            filename: './html/previewDevflix.html',
+            template: './src/html/previewDevflix.html'
+        }),
+        new HtmlWebpack({
+            filename: './html/previewMentalista.html',
+            template: './src/html/previewMentalista.html'
+        }),
+        new HtmlWebpack({
+            filename: './html/previewImersao.html',
+            template: './src/html/previewImersao.html'
+        }),
         new MiniCssExtract({
             filename: './css/style.css'
         })

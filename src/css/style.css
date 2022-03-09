@@ -34,6 +34,31 @@ header {
         color: #FFF;
         text-decoration: underline; }
 
+header {
+  width: 100%;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #455666 0%, #222222 90%); }
+  header .cabecalho-preview .container-fluid {
+    display: flex;
+    flex-direction: column; }
+    header .cabecalho-preview .container-fluid .row {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0; }
+      header .cabecalho-preview .container-fluid .row h1 {
+        color: #FFF;
+        font-size: 4rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding-top: 15px; }
+      header .cabecalho-preview .container-fluid .row h3 {
+        color: #FFF;
+        font-size: 2.50rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding: 15px 0 20px 0; }
+
 main {
   width: 100%; }
   main .dadosPessoais .col-lg-12 {
@@ -122,6 +147,96 @@ main {
     main .contatos .col-lg-4 img {
       width: 60px; }
 
+main {
+  width: 100%; }
+  main .preview .motivos {
+    width: 50%; }
+    main .preview .motivos .col-lg-12 {
+      margin: 20px 0;
+      text-align: center; }
+      main .preview .motivos .col-lg-12 h6 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-bottom: 2px solid #000; }
+      main .preview .motivos .col-lg-12 p {
+        text-align: justify;
+        font-size: 1.3rem; }
+  main .preview .funcionalidades {
+    width: 50%;
+    margin-left: 50%; }
+    main .preview .funcionalidades .col-lg-12 {
+      margin: 20px 0;
+      text-align: center; }
+      main .preview .funcionalidades .col-lg-12 h6 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-bottom: 2px solid #000; }
+      main .preview .funcionalidades .col-lg-12 li {
+        text-align: justify;
+        font-size: 1.3rem; }
+  main .preview .objetivos {
+    width: 50%; }
+    main .preview .objetivos .col-lg-12 {
+      margin: 20px 0;
+      text-align: center; }
+      main .preview .objetivos .col-lg-12 h6 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-bottom: 2px solid #000; }
+      main .preview .objetivos .col-lg-12 li {
+        text-align: justify;
+        font-size: 1.3rem; }
+  main .preview .construcao {
+    width: 50%;
+    margin-left: 50%; }
+    main .preview .construcao .col-lg-12 {
+      margin: 20px 0;
+      text-align: center; }
+      main .preview .construcao .col-lg-12 h6 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-bottom: 2px solid #000; }
+    main .preview .construcao .col-lg-2 {
+      text-align: center;
+      margin: 0 auto; }
+      main .preview .construcao .col-lg-2 img {
+        width: 60px; }
+  main .preview .codigo {
+    width: 50%; }
+    main .preview .codigo .col-lg-12 {
+      margin: 20px 0;
+      text-align: center; }
+      main .preview .codigo .col-lg-12 h6 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-bottom: 2px solid #000; }
+      main .preview .codigo .col-lg-12 .link {
+        text-align: center;
+        padding-top: 10px; }
+        main .preview .codigo .col-lg-12 .link a {
+          background-color: #41505e;
+          border: 1px solid #41505e;
+          margin-bottom: 5px;
+          padding: 5px 20px;
+          color: #FFF;
+          font-size: 1.3rem;
+          font-weight: 600; }
+          main .preview .codigo .col-lg-12 .link a:hover {
+            background-color: #62788d; }
+  main .preview .templates {
+    width: 100%; }
+    main .preview .templates .col-lg-12 {
+      margin: 20px 0;
+      text-align: center; }
+      main .preview .templates .col-lg-12 h6 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        border-bottom: 2px solid #000; }
+      main .preview .templates .col-lg-12 p {
+        font-size: 1.8rem; }
+      main .preview .templates .col-lg-12 img {
+        max-width: inherit; }
+
 @media (max-width: 768px) {
   header .container-fluid {
     flex-direction: column;
@@ -141,8 +256,6 @@ main {
           width: 50%; }
         header .container-fluid .row .row .col-lg-4 {
           width: 33.33%; }
-        header .container-fluid .row .row a {
-          font-size: 1.3rem; }
   main .container {
     padding-left: 0;
     padding-right: 0; }
@@ -152,72 +265,48 @@ main {
       main .container .dadosPessoais .container-fluid .row {
         text-align: center;
         --bs-gutter-x: 0; }
-        main .container .dadosPessoais .container-fluid .row .col-lg-12 h1 {
-          font-size: 1.5rem; }
         main .container .dadosPessoais .container-fluid .row .col-lg-3 {
           width: 25%; }
-          main .container .dadosPessoais .container-fluid .row .col-lg-3 p {
-            font-size: 1.1rem; }
     main .container .resumo .container-fluid {
       padding-left: 0;
       padding-right: 0; }
       main .container .resumo .container-fluid .row {
         text-align: center;
         --bs-gutter-x: 0; }
-        main .container .resumo .container-fluid .row .col-lg-12 h1 {
-          font-size: 1.5rem; }
-        main .container .resumo .container-fluid .row .col-lg-12 p {
-          font-size: 1.1rem; }
     main .container .formacao .container-fluid {
       padding-left: 0;
       padding-right: 0; }
       main .container .formacao .container-fluid .row {
         text-align: center;
         --bs-gutter-x: 0; }
-        main .container .formacao .container-fluid .row .col-lg-12 h1 {
-          font-size: 1.5rem; }
         main .container .formacao .container-fluid .row .col-lg-4 {
           padding: 0 10px; }
           main .container .formacao .container-fluid .row .col-lg-4 h4 {
-            font-size: 1.1rem;
             padding: 15px 0; }
-          main .container .formacao .container-fluid .row .col-lg-4 p {
-            font-size: .95rem; }
     main .container .projetos .container-fluid {
       padding-left: 0;
       padding-right: 0; }
       main .container .projetos .container-fluid .row {
         text-align: center;
         --bs-gutter-x: 0; }
-        main .container .projetos .container-fluid .row .col-lg-12 h1 {
-          font-size: 1.5rem; }
         main .container .projetos .container-fluid .row .col-lg-4 h4 {
           padding: 15px 0;
-          font-size: 1.1rem;
           text-align: center; }
         main .container .projetos .container-fluid .row .col-lg-4 p {
-          font-size: 0.95rem;
           text-align: center; }
         main .container .projetos .container-fluid .row .col-lg-4 .link {
           margin: 0px 180px 5px; }
-          main .container .projetos .container-fluid .row .col-lg-4 .link a {
-            font-size: 1.1rem; }
-        main .container .projetos .container-fluid .row .col-lg-4 span {
-          font-size: .965rem; }
     main .container .conhecimentos .container-fluid {
       padding-left: 0;
       padding-right: 0; }
       main .container .conhecimentos .container-fluid .row {
         text-align: center;
         --bs-gutter-x: 0; }
-        main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
-          font-size: 1.5rem; }
         main .container .conhecimentos .container-fluid .row .col-lg-12 h4 {
           margin-left: 0px; }
         main .container .conhecimentos .container-fluid .row .col-lg-2 {
           width: 50%; }
           main .container .conhecimentos .container-fluid .row .col-lg-2 p {
-            font-size: .95rem;
             margin-bottom: .5rem; }
           main .container .conhecimentos .container-fluid .row .col-lg-2 img {
             padding-bottom: 15px; }
@@ -227,12 +316,8 @@ main {
       main .container .contatos .container-fluid .row {
         text-align: center;
         --bs-gutter-x: 0; }
-        main .container .contatos .container-fluid .row .col-lg-12 h1 {
-          font-size: 1.5rem; }
         main .container .contatos .container-fluid .row .col-lg-4 {
           width: 33.3%; }
-          main .container .contatos .container-fluid .row .col-lg-4 p {
-            font-size: 1.1rem; }
   footer .row {
     padding: 0; }
     footer .row .col-lg-8 {
@@ -264,8 +349,6 @@ main {
         width: 50%; }
       header .container-fluid .row .row .col-lg-4 {
         width: 33.33%; }
-      header .container-fluid .row .row a {
-        font-size: 1.1rem; }
   main .container .dadosPessoais .container-fluid {
     padding: 0 10px; }
     main .container .dadosPessoais .container-fluid .row {
@@ -274,13 +357,8 @@ main {
       main .container .dadosPessoais .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
-        main .container .dadosPessoais .container-fluid .row .col-lg-12 h1 {
-          margin: none;
-          font-size: 1.3rem; }
       main .container .dadosPessoais .container-fluid .row .col-lg-3 {
         width: 50%; }
-        main .container .dadosPessoais .container-fluid .row .col-lg-3 p {
-          font-size: .985rem; }
   main .container .resumo .container-fluid {
     padding: 0 10px; }
     main .container .resumo .container-fluid .row {
@@ -289,11 +367,6 @@ main {
       main .container .resumo .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
-        main .container .resumo .container-fluid .row .col-lg-12 h1 {
-          margin: none;
-          font-size: 1.3rem; }
-        main .container .resumo .container-fluid .row .col-lg-12 p {
-          font-size: .985rem; }
   main .container .formacao .container-fluid {
     padding: 0 10px; }
     main .container .formacao .container-fluid .row {
@@ -302,15 +375,8 @@ main {
       main .container .formacao .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
-        main .container .formacao .container-fluid .row .col-lg-12 h1 {
-          margin: none;
-          font-size: 1.3rem; }
       main .container .formacao .container-fluid .row .col-lg-4 {
         padding: 0 10px; }
-        main .container .formacao .container-fluid .row .col-lg-4 h4 {
-          font-size: .985rem; }
-        main .container .formacao .container-fluid .row .col-lg-4 p {
-          font-size: .75rem; }
   main .container .projetos .container-fluid {
     padding: 0 10px; }
     main .container .projetos .container-fluid .row {
@@ -319,19 +385,10 @@ main {
       main .container .projetos .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
-        main .container .projetos .container-fluid .row .col-lg-12 h1 {
-          margin: none;
-          font-size: 1.3rem; }
-      main .container .projetos .container-fluid .row .col-lg-4 h4 {
-        font-size: .985rem; }
-      main .container .projetos .container-fluid .row .col-lg-4 p {
-        font-size: 0.85rem; }
       main .container .projetos .container-fluid .row .col-lg-4 .link {
         margin: 0px 80px 5px; }
         main .container .projetos .container-fluid .row .col-lg-4 .link a {
           font-size: .985rem; }
-      main .container .projetos .container-fluid .row .col-lg-4 span {
-        font-size: .765rem; }
   main .container .conhecimentos .container-fluid {
     padding: 0 10px; }
     main .container .conhecimentos .container-fluid .row {
@@ -340,14 +397,8 @@ main {
       main .container .conhecimentos .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
-        main .container .conhecimentos .container-fluid .row .col-lg-12 h1 {
-          margin: none;
-          font-size: 1.3rem; }
         main .container .conhecimentos .container-fluid .row .col-lg-12 h4 {
-          font-size: 1rem;
           margin-left: 0; }
-      main .container .conhecimentos .container-fluid .row .col-lg-2 p {
-        font-size: .75rem; }
       main .container .conhecimentos .container-fluid .row .col-lg-2 img {
         width: 50px; }
   main .container .contatos .container-fluid {
@@ -358,9 +409,6 @@ main {
       main .container .contatos .container-fluid .row .col-lg-12 {
         margin: 10px 0;
         font-size: none; }
-        main .container .contatos .container-fluid .row .col-lg-12 h1 {
-          margin: none;
-          font-size: 1.3rem; }
       main .container .contatos .container-fluid .row .col-lg-4 {
         width: 100%;
         margin: 2rem 0 2rem 0; }
@@ -370,6 +418,32 @@ main {
   footer .row .col-lg-4 {
     padding-left: 5px;
     padding-right: 5px; } }
+
+@media (max-width: 768px) {
+  header .cabecalho-preview .container-fluid .row h1 {
+    font-size: 3.8rem; }
+  header .cabecalho-preview .container-fluid .row h3 {
+    font-size: 2.25rem; }
+  main .preview .construcao .col-lg-2 {
+    width: 50%;
+    margin: 0;
+    padding: 10px 0; }
+  main .preview .templates .col-lg-12 img {
+    max-width: inherit; } }
+
+@media (max-width: 576px) {
+  header .cabecalho-preview .container-fluid .row h1 {
+    font-size: 3.2rem; }
+  header .cabecalho-preview .container-fluid .row h3 {
+    font-size: 2rem; }
+  main .preview .motivos,
+  main .preview .objetivos,
+  main .preview .codigo {
+    width: 100%; }
+  main .preview .funcionalidades,
+  main .preview .construcao {
+    width: 100%;
+    margin-left: 0; } }
 
 footer {
   width: 100%;
