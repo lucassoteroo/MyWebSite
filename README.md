@@ -3,21 +3,21 @@
 <section>
   
   <h3 align="center">Versão desktop</h3>
-  <p align="center"> <img src="./template/templateDesktop.jpeg" /> </p>  
+  <p align="center"> <img src="./template/desktop.jpeg" /> </p>  
   
 </section>
 
 <section>
   
   <h3 align="center">Versão tablet</h3>
-  <p align="center"> <img src="./template/templateTablet.jpeg" /> </p>
+  <p align="center"> <img src="./template/tablet.jpeg" /> </p>
   
 </section>
 
 <section>
   
   <h3 align="center">Versão mobile</h3>
-  <p align="center"> <img src="./template/templateMobile.jpeg"/> </p>
+  <p align="center"> <img src="./template/mobile.jpeg"/> </p>
   
 </section>
 
@@ -42,7 +42,8 @@
 
 <ul>
   <li>Clicando em qualquer item do menu (localizado acima da minha foto) você é direcionando para a seção de leitura referente.</li>
-  <li>Clicando em um dos botões "link do projeto", o usuário é direcionado para o repositório do projeto no meu Github</li>
+  <li>Clicando em um dos botões "preview", o usuário é direcionado para outra página que fala mais sobre respectivo projeto</li>
+  <li>Nas páginas de preview, o usário tem acesso a mais conteúdo sobre determinado projeto, contendo, também, um botão ("códigos no repositório do Github") onde será direcionado para o link do projeto no github</li>
   <li>As imagens na seção "Contatos" redirecionam o usuário para os respectivos aplicativos (linkedin, github e gmail).</li>
   <li>As imagens do rodapé (whatsapp, instagram e twitter) são minhas redes sociais mais usadas, caso queira me conhecer melhor, será redirecionado para a respectiva rede social</li>
 </ul>
