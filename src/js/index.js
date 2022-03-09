@@ -1,5 +1,6 @@
 import '../css/style.css'
 import '../css/bootstrap.css'
+import '../img/png/back.png'
 import '../img/png/fotoPerfil.jpeg'
 import '../img/png/desktop-devflix.jpeg'
 import '../img/png/tablet-devflix.jpeg'

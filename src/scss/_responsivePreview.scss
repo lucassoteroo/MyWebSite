@@ -1,13 +1,23 @@
 @media (max-width: 768px) {
     header {
         .cabecalho-preview {
-            .container-fluid {
-                .row {
-                    h1 {
-                        font-size: 3.8rem;
-                    }
-                    h3 {
-                        font-size: 2.25rem;
+            .voltar {
+                .container-fluid {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                }
+            }
+            .cabecalho {
+                .container-fluid {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                    .row {
+                        h1 {
+                            font-size: 3.8rem;
+                        }
+                        h3 {
+                            font-size: 2.25rem;
+                        }
                     }
                 }
             }
@@ -36,13 +46,25 @@
 @media (max-width: 576px) {
     header {
         .cabecalho-preview {
-            .container-fluid {
-                .row {
-                    h1 {
-                        font-size: 2.8rem;
-                    }
-                    h3 {
-                        font-size: 1.8rem;
+            .voltar {
+                .container-fluid {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                }
+            }
+            .cabecalho {
+                .container-fluid {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                    .row {
+                        padding-right: 0 !important;
+                        padding-left: 0 !important;
+                        h1 {
+                            font-size: 2.8rem;
+                        }
+                        h3 {
+                            font-size: 1.8rem;
+                        }
                     }
                 }
             }

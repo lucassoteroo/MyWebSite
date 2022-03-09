@@ -37,27 +37,40 @@ header {
 header {
   width: 100%;
   background-image: radial-gradient(circle farthest-corner at 10% 20%, #455666 0%, #222222 90%); }
-  header .cabecalho-preview .container-fluid {
+  header .cabecalho-preview {
     display: flex;
-    flex-direction: column; }
-    header .cabecalho-preview .container-fluid .row {
-      width: 100%;
-      padding: 0;
-      text-align: center;
-      margin-left: 0;
-      margin-right: 0; }
-      header .cabecalho-preview .container-fluid .row h1 {
-        color: #FFF;
-        font-size: 4rem;
-        font-weight: 600;
-        margin-bottom: 0;
-        padding-top: 15px; }
-      header .cabecalho-preview .container-fluid .row h3 {
-        color: #FFF;
-        font-size: 2.50rem;
-        font-weight: 600;
-        margin-bottom: 0;
-        padding: 15px 0 20px 0; }
+    flex-direction: row; }
+    header .cabecalho-preview .voltar {
+      width: 10%;
+      margin: auto 0; }
+      header .cabecalho-preview .voltar .container-fluid .row .col-lg-12 a {
+        cursor: pointer; }
+        header .cabecalho-preview .voltar .container-fluid .row .col-lg-12 a img {
+          width: 40px; }
+    header .cabecalho-preview .cabecalho {
+      width: 90%; }
+      header .cabecalho-preview .cabecalho .container-fluid {
+        width: 95%;
+        display: flex;
+        flex-direction: column; }
+        header .cabecalho-preview .cabecalho .container-fluid .row {
+          width: 100%;
+          padding: 0;
+          text-align: center;
+          margin-left: 0;
+          margin-right: 0; }
+          header .cabecalho-preview .cabecalho .container-fluid .row h1 {
+            color: #FFF;
+            font-size: 4rem;
+            font-weight: 600;
+            margin-bottom: 0;
+            padding-top: 15px; }
+          header .cabecalho-preview .cabecalho .container-fluid .row h3 {
+            color: #FFF;
+            font-size: 2.50rem;
+            font-weight: 600;
+            margin-bottom: 0;
+            padding: 15px 0 20px 0; }
 
 main {
   width: 100%; }
@@ -440,10 +453,16 @@ main {
     padding-right: 5px; } }
 
 @media (max-width: 768px) {
-  header .cabecalho-preview .container-fluid .row h1 {
-    font-size: 3.8rem; }
-  header .cabecalho-preview .container-fluid .row h3 {
-    font-size: 2.25rem; }
+  header .cabecalho-preview .voltar .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important; }
+  header .cabecalho-preview .cabecalho .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important; }
+    header .cabecalho-preview .cabecalho .container-fluid .row h1 {
+      font-size: 3.8rem; }
+    header .cabecalho-preview .cabecalho .container-fluid .row h3 {
+      font-size: 2.25rem; }
   main .preview .construcao .col-lg-2 {
     width: 50%;
     margin: 0;
@@ -452,10 +471,19 @@ main {
     max-width: inherit; } }
 
 @media (max-width: 576px) {
-  header .cabecalho-preview .container-fluid .row h1 {
-    font-size: 2.8rem; }
-  header .cabecalho-preview .container-fluid .row h3 {
-    font-size: 1.8rem; }
+  header .cabecalho-preview .voltar .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important; }
+  header .cabecalho-preview .cabecalho .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important; }
+    header .cabecalho-preview .cabecalho .container-fluid .row {
+      padding-right: 0 !important;
+      padding-left: 0 !important; }
+      header .cabecalho-preview .cabecalho .container-fluid .row h1 {
+        font-size: 2.8rem; }
+      header .cabecalho-preview .cabecalho .container-fluid .row h3 {
+        font-size: 1.8rem; }
   main .preview .motivos,
   main .preview .objetivos,
   main .preview .codigo,
