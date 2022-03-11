@@ -26,6 +26,12 @@ header {
       margin-right: 0; }
       header .container-fluid .row img {
         width: 450px; }
+      header .container-fluid .row .col-lg-6 {
+        width: 40%; }
+      header .container-fluid .row .col-lg-3 {
+        width: 30%; }
+      header .container-fluid .row .col-lg-4 {
+        width: 33.33%; }
       header .container-fluid .row a {
         text-decoration: none;
         color: #FFF;
@@ -43,16 +49,21 @@ header {
     header .cabecalho-preview .voltar {
       width: 10%;
       margin: auto 0; }
-      header .cabecalho-preview .voltar .container-fluid .row .col-lg-12 a {
-        cursor: pointer; }
-        header .cabecalho-preview .voltar .container-fluid .row .col-lg-12 a img {
-          width: 40px; }
+      header .cabecalho-preview .voltar .container-fluid {
+        padding-right: 0 !important;
+        margin-right: 0 !important; }
+        header .cabecalho-preview .voltar .container-fluid .row .col-lg-12 a {
+          cursor: pointer; }
+          header .cabecalho-preview .voltar .container-fluid .row .col-lg-12 a img {
+            width: 40px; }
     header .cabecalho-preview .cabecalho {
       width: 90%; }
       header .cabecalho-preview .cabecalho .container-fluid {
         width: 95%;
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        padding-left: 0 !important;
+        margin-left: 0 !important; }
         header .cabecalho-preview .cabecalho .container-fluid .row {
           width: 100%;
           padding: 0;
@@ -265,8 +276,10 @@ main {
         width: 50%;
         display: flex;
         flex-direction: row; }
+        header .container-fluid .row .row .col-lg-3 {
+          width: 30%; }
         header .container-fluid .row .row .col-lg-6 {
-          width: 50%; }
+          width: 40%; }
         header .container-fluid .row .row .col-lg-4 {
           width: 33.33%; }
   main .container {
@@ -359,8 +372,12 @@ main {
       display: flex;
       flex-direction: row; }
       header .container-fluid .row .row .col-lg-6 {
-        width: 50%; }
+        width: 40%; }
         header .container-fluid .row .row .col-lg-6 a {
+          font-size: 1.3rem; }
+      header .container-fluid .row .row .col-lg-3 {
+        width: 30%; }
+        header .container-fluid .row .row .col-lg-3 a {
           font-size: 1.3rem; }
       header .container-fluid .row .row .col-lg-4 {
         width: 33.33%; }
