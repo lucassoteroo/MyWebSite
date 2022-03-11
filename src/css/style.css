@@ -26,12 +26,6 @@ header {
       margin-right: 0; }
       header .container-fluid .row img {
         width: 450px; }
-      header .container-fluid .row .col-lg-6 {
-        width: 40%; }
-      header .container-fluid .row .col-lg-3 {
-        width: 30%; }
-      header .container-fluid .row .col-lg-4 {
-        width: 33.33%; }
       header .container-fluid .row a {
         text-decoration: none;
         color: #FFF;
@@ -546,10 +540,12 @@ footer {
       text-align: left;
       padding-left: 20px;
       padding-top: 8px; }
-      footer .row .col-lg-8 p {
-        color: #FFF;
-        font-size: .9rem;
-        font-weight: 600; }
+      footer .row .col-lg-8 a {
+        text-decoration: none; }
+        footer .row .col-lg-8 a p {
+          color: #FFF;
+          font-size: .9rem;
+          font-weight: 600; }
     footer .row .col-lg-4 {
       text-align: right;
       padding-right: 20px;
