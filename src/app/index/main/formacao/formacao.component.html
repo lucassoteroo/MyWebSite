@@ -1,0 +1,14 @@
+<section class="formacao">
+    <div class="formacao__cabecalho">
+        <h1 class="formacao__titulo">
+            <a name="formacao">Formação</a>
+        </h1>
+    </div>
+    <div class="formacao__itens">
+        <div class="formacao__item" *ngFor="let formacao of formacao">
+            <h4 class="formacao__curso">{{formacao.titulo}}</h4>
+            <p class="formacao__nome">{{formacao.escola}}</p>
+            <p class="formacao__duracao">{{formacao.duracao}}</p>
+        </div>
+    </div>
+</section>

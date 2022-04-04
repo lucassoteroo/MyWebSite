@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+header,
+footer {
+    width: 100%;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #455666 0%, #222222 90%);
+}

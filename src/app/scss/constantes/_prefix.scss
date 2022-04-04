@@ -1,0 +1,6 @@
+@mixin prefixos($propriedade, $valor) {
+    -moz-#{$propriedade}: $valor;
+    -webkit-#{$propriedade}: $valor;
+    -ms-#{$propriedade}: $valor;
+    #{$propriedade}: $valor
+}

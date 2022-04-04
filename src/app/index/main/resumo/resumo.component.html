@@ -1,0 +1,15 @@
+<section class="resumo" *ngFor="let resumo of resumo">
+    <div class="resumo__cabecalho">
+        <h1 class="resumo__titulo">
+            <a name="resumo">Resumo</a>
+        </h1>
+    </div>
+    <div class="resumo__itens">
+        <div class="resumo__item">
+            <img [src]="resumo.imageUrl" alt="" class="resumo__imagem">
+        </div>
+        <div class="resumo__item">
+            <p>{{resumo.resumo}}</p>
+        </div>
+    </div>
+</section>

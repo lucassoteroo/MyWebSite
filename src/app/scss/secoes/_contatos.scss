@@ -1,0 +1,86 @@
+.contatos {
+    @extend %paddingSecao;
+    &__cabecalho {
+        @extend %cabecalhoSecao;
+    }
+    &__titulo {
+        @extend %tituloSecao;
+    }
+    &__itens {
+        @include padding(3rem, 2rem, 6rem, 2rem);
+        @include displayGrid(repeat(3, 1fr), 1rem);
+    }
+    &__item {
+        @extend %itemSecao;
+        @include displayFlex(row);
+    }
+    &__item:nth-child(1) {
+        background-color: $colorBoxLinkedin;
+        border: 1px solid $colorBoxLinkedin;
+        color: $colorFontHover;
+        border-radius: 1rem;
+    }
+    &__item:nth-child(2) {
+        background-color: $colorBoxGithub;
+        border: 1px solid $colorBoxGithub;
+        color: $colorFontHover;
+        border-radius: 1rem;
+    }
+    &__item:nth-child(3) {
+        background-color: $colorBoxGmail;
+        border: 1px solid $colorBoxGmail;
+        color: $colorFontHover;
+        border-radius: 1rem;
+    }
+    &__texto,
+    &__link {
+        object-fit: contain;
+    }
+    &__texto {
+        text-align: center;
+        @include padding(.5rem, .25rem, .5rem, .25rem);
+        align-self: center;
+    }
+    &__link {
+        align-self: center;
+    }
+    &__imagem {
+        width: 100px;
+        @include padding(.25rem, .25rem, .25rem, .25rem);
+        background-color: $colorFontHover;
+        border-radius: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contatos {
+        &__itens {
+            @include displayGrid(repeat(2, 1fr), 1rem);
+        }
+        &__imagem {
+            width: 90px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .contatos {
+        &__cabecalho {
+            @include padding(2rem, 0, 0, .5rem);
+        }
+        &__titulo {
+            @include fontTitulo(1.5rem, $colorFontTitulo, 3px);
+        }
+        &__itens {
+            @include displayGrid(repeat(1, 1fr), 1rem);
+        }
+        &__item {
+            @include fontTexto(1.2rem, 400);
+            @include displayFlex(column);
+            @include padding(.5rem, 0rem, .5rem, 0rem);
+        }
+        &__imagem {
+            width: 80px;
+        }
+    }
+}

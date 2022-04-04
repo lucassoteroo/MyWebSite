@@ -1,0 +1,25 @@
+%tituloSecao {
+    @include fontTitulo(2rem, $colorFontTitulo, 1px);
+}
+
+%cabecalhoSecao {
+    display: block;
+    @include padding(3rem, 0, 0, 2rem);
+}
+
+%cabecalhoSecaoMobile {
+    @include padding(2rem, 0, 0, .5rem);
+}
+
+%paddingSecao {
+    @include padding(0, 0.75rem, 0, 0.75rem);
+}
+
+%paddingItensSecao {
+    @include padding(3rem, 2rem, 0, 2rem);
+}
+
+%itemSecao {
+    @include fontTexto(1.5rem, 400);
+    @include padding(0.75rem, 0, 0.75rem, 0);
+}

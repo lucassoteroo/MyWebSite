@@ -1,0 +1,84 @@
+.conhecimentos {
+    @extend %paddingSecao;
+    &__cabecalho {
+        @extend %cabecalhoSecao;
+    }
+    &__titulo {
+        @extend %tituloSecao;
+    }
+    &__itens {
+        @extend %paddingItensSecao;
+    }
+    &__item {
+        @extend %itemSecao;
+        @include padding(2rem, 0, 0, 0);
+        @include displayGrid(repeat(8, 1fr), 1rem);
+    }
+    &__subtitulo {
+        font-size: 1.5rem;
+    }
+    &__moldura {
+        @include displayFlex(column);
+        align-items: center;
+        cursor: pointer;
+        &:hover {
+            .conhecimentos__texto {
+                top: 0;
+                color: #000;
+            }
+        }
+    }
+    &__imagem {
+        width: 100px;
+    }
+    &__texto {
+        position: relative;
+        top: -55px;
+        color: transparent;
+        transition: 0.2s;
+        padding-top: .5rem;
+        text-shadow: 5px 5px 10px;
+        font: {
+            size: 1.25rem;
+            weight: 600;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .conhecimentos {
+        &__item {
+            @include displayGrid(repeat(5, 1fr), 1rem);
+        }
+        &__imagem {
+            width: 90px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .conhecimentos {
+        &__cabecalho {
+            @include padding(2rem, 0, 0, .5rem);
+        }
+        &__titulo {
+            @include fontTitulo(1.5rem, $colorFontTitulo, 3px);
+        }
+        &__itens {
+            @include padding(2rem, .5rem, 0, .5rem);
+        }
+        &__item {
+            @include displayGrid(repeat(3, 1fr), 1rem);
+            @include padding(2rem, 0, 0, 0);
+        }
+        &__subtitulo {
+            @include fontTexto(1.2rem, 400);
+        }
+        &__imagem {
+            width: 80px;
+        }
+        &__moldura {
+            padding-bottom: 1rem;
+        }
+    }
+}

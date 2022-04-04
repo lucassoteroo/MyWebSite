@@ -1,0 +1,37 @@
+@mixin fontTitulo($tamanho, $cor, $espacamentoLetras) {
+    font: {
+        size: $tamanho;
+        weight: 600;
+        family: $fontCoolvetica;
+    }
+    letter-spacing: $espacamentoLetras;
+    color: $cor;
+}
+
+@mixin fontTexto($tamanho, $grossura) {
+    font: {
+        size: $tamanho;
+        weight: $grossura;
+        family: $fontTimeless;
+    }
+}
+
+@mixin displayGrid($repeat, $gap) {
+    display: grid;
+    grid-template-columns: $repeat;
+    gap: $gap;
+}
+
+@mixin displayFlex($flex-direction) {
+    display: flex;
+    flex-direction: $flex-direction;
+}
+
+@mixin padding($acima, $direita, $abaixo, $esquerda) {
+    padding: {
+        top: $acima;
+        right: $direita;
+        bottom: $abaixo;
+        left: $esquerda;
+    }
+}

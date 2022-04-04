@@ -1,0 +1,91 @@
+.projetos {
+    @extend %paddingSecao;
+    &__cabecalho {
+        @extend %cabecalhoSecao;
+    }
+    &__titulo {
+        @extend %tituloSecao;
+    }
+    &__itens {
+        @extend %paddingItensSecao;
+        @include displayGrid(repeat(3, 1fr), 1rem);
+    }
+    &__item {
+        @extend %itemSecao;
+        line-height: 1.25;
+        box-shadow: 10px 10px 10px $colorBoxShadow;
+        padding-top: 0;
+        text-align: center;
+        border: {
+            left: 1px solid $colorBackgroundProjetos;
+            right: 1px solid $colorBackgroundProjetos;
+            bottom: 1px solid $colorBackgroundProjetos;
+        }
+    }
+    &__nome {
+        @include padding(1rem, 0, 1rem, 0)
+    }
+    &__descricao,
+    &__botao {
+        font-size: 1.25rem;
+    }
+    &__nome {
+        color: $colorFontHover;
+        background-color: $colorBackgroundProjetos;
+    }
+    &__descricao {
+        text-align: justify;
+        @include padding(1rem, .5rem, 1.5rem, .5rem)
+    }
+    &__botao {
+        width: 125px;
+        color: $colorFontHover;
+        background-color: $colorBackgroundBotao;
+        padding: 1rem;
+        font-weight: 600;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin: 0 auto;
+        &:hover {
+            box-shadow: $colorBotaoHoverShadow;
+        }
+    }
+    &__tecnologia {
+        padding-top: 2rem;
+        font: {
+            size: 1rem;
+            weight: 600;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .projetos {
+        &__itens {
+            @include displayGrid(repeat(2, 1fr), 1rem);
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .projetos {
+        &__cabecalho {
+            @include padding(2rem, 0, 0, .5rem);
+        }
+        &__titulo {
+            @include fontTitulo(1.5rem, $colorFontTitulo, 3px);
+        }
+        &__itens {
+            @include displayGrid(repeat(1, 1fr), 1rem);
+        }
+        &__item {
+            @include fontTexto(1.2rem, 400);
+            width: 90%;
+            margin: 0 auto;
+        }
+        &__descricao,
+        &__botao {
+            font-size: 1.2rem;
+        }
+    }
+}

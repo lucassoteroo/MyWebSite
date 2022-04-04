@@ -1,0 +1,15 @@
+<section class="projetos">
+    <div class="projetos__cabecalho">
+        <h1 class="projetos__titulo">
+            <a name="projetos">Projetos</a>
+        </h1>
+    </div>
+    <div class="projetos__itens">
+        <div class="projetos__item" *ngFor="let projetos of projetos">
+            <h4 class="projetos__nome">{{projetos.titulo}}</h4>
+            <p class="projetos__descricao">{{projetos.descricao}}</p>
+            <a href="#" class="projetos__botao">Preview</a>
+            <p class="projetos__tecnologia">Tecnologias: {{projetos.tecnologias}}</p>
+        </div>
+    </div>
+</section>

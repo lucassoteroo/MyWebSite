@@ -1,0 +1,46 @@
+.dados {
+    @extend %paddingSecao;
+    &__cabecalho {
+        @extend %cabecalhoSecao;
+    }
+    &__titulo {
+        @extend %tituloSecao;
+    }
+    &__itens {
+        @include displayGrid(repeat(4, 1fr), 1rem);
+        @extend %paddingItensSecao;
+    }
+    &__item {
+        @extend %itemSecao;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 1rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .dados {
+        &__itens {
+            @include displayGrid(repeat(2, 1fr), 1rem)
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .dados {
+        &__cabecalho {
+            @include padding(2rem, 0, 0, .5rem);
+        }
+        &__titulo {
+            @include fontTitulo(1.5rem, $colorFontTitulo, 3px);
+        }
+        &__itens {
+            @include displayGrid(repeat(1, 1fr), 1rem);
+            @include padding(2rem, 4rem, 0, 4rem);
+        }
+        &__item {
+            @include fontTexto(1.2rem, 400);
+        }
+    }
+}

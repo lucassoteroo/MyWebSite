@@ -1,81 +1,27 @@
-<h2>MyWebsite</h2>
+# WebSite
 
-<section>
-  
-  <h3 align="center">Versão desktop</h3>
-  <p align="center"> <img src="./template/desktop.jpeg" /> </p>  
-  
-</section>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-<section>
-  
-  <h3 align="center">Versão tablet</h3>
-  <p align="center"> <img src="./template/tablet.jpeg" /> </p>
-  
-</section>
+## Development server
 
-<section>
-  
-  <h3 align="center">Versão mobile</h3>
-  <p align="center"> <img src="./template/mobile.jpeg"/> </p>
-  
-</section>
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-<h2>Sobre</h2>
+## Build
 
-<h4>"Um projeto autoral, com o objetivo de ser uma forma de clientes, conhecidos e outros dev's conhecerem melhor sobre meu lado profissional. 🖖"</h4>
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-<h2>Motivo</h2>
+## Running unit tests
 
-<p>Iniciei esse projeto com o intuito de praticar o que estava aprendendo enquanto estudava, porém decidi criar um website para servir como uma carta de entrada. Um site simples com o objetivo de conhecerem melhor meu lado profissional, e se gostarem, terem meios de entrar em contato comigo. </p>
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-<h2>Objetivos</h2>
+## Running end-to-end tests
 
-<ol>
-  <li>O site tem apenas a função de informar o leitor sobre meu trabalho, contendo alguns links para entrar em contato direto comigo</li>
-  <li>O site pode ser aberto nas principais telas do mercado: mobile, tablet e desktop</li>
-</ol>
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-<h2>Funcionalidades</h2>
+## Further help
 
-<ul>
-  <li>Clicando em qualquer item do menu (localizado acima da minha foto) você é direcionando para a seção de leitura referente.</li>
-  <li>Clicando em um dos botões "preview", o usuário é direcionado para outra página que fala mais sobre respectivo projeto</li>
-  <li>Nas páginas de preview, o usário tem acesso a mais conteúdo sobre determinado projeto, contendo, também, um botão ("códigos no repositório do Github") onde será direcionado para o link do projeto no github</li>
-  <li>As imagens na seção "Contatos" redirecionam o usuário para os respectivos aplicativos (linkedin, github e gmail).</li>
-  <li>As imagens do rodapé (whatsapp, instagram e twitter) são minhas redes sociais mais usadas, caso queira me conhecer melhor, será redirecionado para a respectiva rede social</li>
-</ul>
-
-<h2>Instalação</h2>
-  
-<h5>$ git clone https://github.com/lucassoteroo/WebSite.git</h5> 
-
-<h2>1. Rodar o comando:</h2>
-  
-```
-$ Npm install
-``` 
-
-<h2>2. Rodar o comando:</h2>
-
-```
-$ Npm run build
-```
-
-<h2>Contrução</h2>
-
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![BOOTSTRAP](https://img.shields.io/badge/-BOOTSTRAP-7952B3?style=flat-square&logo=html5&logoColor=ffffff)
-![Gulp](https://img.shields.io/badge/-GULP-CF4647?style=flat-square&logo=gulp&logoColor=ffffff)
-![Webpack](https://img.shields.io/badge/-WEBPACK-8DD6F9?style=flat-square&logo=webpack&logoColor=ffffff)
-![Sass](https://img.shields.io/badge/-SASS-CC6699?style=flat-square&logo=sass&logoColor=ffffff)
-![Canva](https://img.shields.io/badge/-FIGMA-F24E1E?style=flat-square&logo=figma&logoColor=ffffff)
-
-
-
-
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

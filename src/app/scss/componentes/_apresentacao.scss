@@ -1,0 +1,32 @@
+.sobre {
+    @include displayFlex(column);
+    @include padding(0, 0, 5rem, 0);
+    align-items: center;
+    &__nome,
+    &__espec {
+        @include fontTitulo(2rem, $colorFontApresentacao, 3px);
+    }
+    &__nome {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        &__imagem {
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .sobre {
+        &__nome,
+        &__espec {
+            font-size: 1.5rem;
+        }
+        &__imagem {
+            width: 90%;
+        }
+    }
+}

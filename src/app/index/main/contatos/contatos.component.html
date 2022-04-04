@@ -1,0 +1,15 @@
+<div class="contatos">
+    <div class="contatos__cabecalho">
+        <h1 class="contatos__titulo">
+            <a name="contatos">Contatos</a>
+        </h1>
+    </div>
+    <div class="contatos__itens">
+        <div class="contatos__item" *ngFor="let contatos of contatos">
+            <p class="contatos__texto">{{contatos.texto}}</p>
+            <a [href]="contatos.url" target="blank" class="contatos__link">
+                <img [src]="contatos.imageUrl" alt="" class="contatos__imagem">
+            </a>
+        </div>
+    </div>
+</div>

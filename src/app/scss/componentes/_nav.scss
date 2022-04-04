@@ -1,0 +1,34 @@
+.navegacao {
+    @include displayFlex(row);
+    @include padding(3rem, 0, 0, 0);
+    justify-content: center;
+    &__item {
+        @include fontTitulo(1.5rem, $colorFontNav, 2px);
+        @include padding(0, 1rem, 0, 1rem);
+        cursor: pointer;
+        &:hover {
+            color: $colorFontHover;
+            transform: scale(1, 1) translateY(-5px);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .navegacao {
+        &__item {
+            @include padding(0, .30rem, 0, .30rem)
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .navegacao {
+        @include displayGrid(repeat(3, 1fr), 0.5rem);
+        @include padding(2rem, 0, 0, 0);
+        &__item {
+            @include padding(0, 0rem, 1rem, 0rem);
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<section class="dados">
+    <div class="dados__cabecalho">
+        <h1 class="dados__titulo">
+            <a name="dados">Dados</a>
+        </h1>
+    </div>
+    <div class="dados__itens" *ngFor="let dados of dados">
+        <p class="dados__item">{{dados.idade}}</p>
+        <p class="dados__item">{{dados.numero}}</p>
+        <p class="dados__item">{{dados.rua}}</p>
+        <p class="dados__item">{{dados.bairro}}</p>
+    </div>
+</section>

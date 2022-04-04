@@ -1,0 +1,25 @@
+<section class="conhecimentos">
+    <div class="conhecimentos__cabecalho">
+        <h1 class="conhecimentos__titulo">
+            <a name="conhecimentos">Conhecimentos</a>
+        </h1>
+    </div>
+    <div class="conhecimentos__itens">
+        <p class="conhecimentos__subtitulo">Tecnologias</p>
+        <div class="conhecimentos__item">
+            <div class="conhecimentos__moldura" *ngFor="let tecnologia of conhecimentosTecnologias">
+                <img [src]="tecnologia.imageUrl" alt="" class="conhecimentos__imagem">
+                <div class="conhecimentos__texto">{{tecnologia.nome}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="conhecimentos__itens">
+        <p class="conhecimentos__subtitulo">Design</p>
+        <div class="conhecimentos__item">
+            <div class="conhecimentos__moldura" *ngFor="let design of conhecimentosDesign">
+                <img [src]="design.imageUrl" alt="" class="conhecimentos__imagem">
+                <div class="conhecimentos__texto">{{design.nome}}</div>
+            </div>
+        </div>
+    </div>
+</section>

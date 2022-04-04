@@ -1,0 +1,16 @@
+<section class="rodape">
+    <div class="rodape__itens">
+        <div class="rodape__item">
+            <a href="#top" class="rodape__copy">
+                <p>Website &copy; Todos os direitos reservados <br> <small class="rodape__nome">Desenvolvido por Lucas Sotero</small></p>
+            </a>
+        </div>
+        <div class="rodape__item">
+            <div class="rodape__social" *ngFor="let rodape of rodape">
+                <a [href]="rodape.url" target="blank">
+                    <img [src]="rodape.imageUrl" alt="" class="rodape__imagem">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
