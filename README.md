@@ -52,16 +52,10 @@
   
 <h5>$ git clone https://github.com/lucassoteroo/WebSite.git</h5> 
 
-<h2>1. Rodar o comando:</h2>
+<h2>Rodar o comando:</h2>
   
 ```
-$ Npm install
-``` 
-
-<h2>2. Rodar o comando:</h2>
-
-```
-$ Npm run build
+$ Ng serve
 ```
 
 <h2>Contrução</h2>
